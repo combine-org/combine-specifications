@@ -1,0 +1,16 @@
+- biopax:
+    url: /standards/biopax
+- biopax-level-1:
+    url: /standards/biopax/level-1
+- biopax-level-2:
+    url: /standards/biopax/level-2
+- biopax-level-3:
+    url: /standards/biopax/level-3
+
+- cellml:
+    url: /standards/cellml
+- cellml.1.0:
+    url: /standards/cellml/1/0
+
+- sbml.level-3.version-1.core.release-3:
+    url: /standards/sbml/level-3/version-1/core
