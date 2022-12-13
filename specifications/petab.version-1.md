@@ -1,11 +1,10 @@
 # PEtab data format specification
+The identifier for this specification is: http://identifiers.org/combine.specifications/petab.version-1
 
 Version 1 of the PEtab data format was published on 29 Jan, 2020. The specification can be found at:
 
 * https://petab.readthedocs.io/en/latest/
 * https://github.com/PEtab-dev/PEtab
-
-* The identifier for this specification is: http://identifiers.org/combine.specifications/petab.version-1
 
 If you use this specification of PEtab in your work, please cite the following publication:
 
