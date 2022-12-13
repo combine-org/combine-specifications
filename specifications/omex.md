@@ -9,5 +9,5 @@ A COMBINE archive is a single file containing the various documents (and in the 
 The [Version 1 of the OMEX specification](./files/omex.version-1) was published on September 15, 2014.
 
 
-How to cite the COMBINE archive
+# How to cite the COMBINE archive
 F. T. Bergmann, Adams, R., Moodie, S., Cooper, J., Glont, M., Golebiewski, M., Hucka, M., Laibe, C., Miller, A. K., Nickerson, D. P., Olivier, B. G., Rodriguez, N., Sauro, H. M., Scharm, M., Soiland-Reyes, S., Waltemath, D., Yvon, F., and Le Novère, N. COMBINE archive and OMEX format: one file to share all information to reproduce a modeling project. BMC Systems Biology (2014) 15:369. http://identifiers.org/pubmed/25494900
