@@ -6,5 +6,5 @@ Identifier for this specification is: [`http://identifiers.org/combine.specifica
 
 The specification can be found at: 
 
-* [biopax.level-1.pdf](./biopax.level-1.pdf)
+* [biopax.level-1.pdf](./files/biopax.level-1.pdf)
 * http://biopax.org/release/biopax-level1-documentation.pdf
