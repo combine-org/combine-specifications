@@ -5,6 +5,8 @@ https://registry.identifiers.org/registry/combine.specifications
 The ids resolve to 
 https://github.com/combine-org/combine-specifications/blob/main/specifications/{$id}.md
 
+https://github.com/combine-org/combine-specifications/blob/main/specifications/biopax.md
+
 This repository will provide the definition pages and additional documents such as 
 PDFs for the specifications.
 
