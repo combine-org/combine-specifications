@@ -1,6 +1,6 @@
 # NeuroML
 
-![NeuroML logo](neuroml.png) 
+![NeuroML logo](./files/neuroml.png) 
 
 The NeuroML project focuses on the development of an XML based description language that provides a common data format for defining and exchanging descriptions of neuronal cell and network models.
 

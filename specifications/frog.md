@@ -1,5 +1,5 @@
 # FROG analysis
-![FROG logo](frog-logo.png) 
+![FROG logo](./files/frog-logo.png) 
 
 Identifier for this specification is: [`https://identifiers.org/combine.specifications:frog`](https://identifiers.org/combine.specifications:frog)
 

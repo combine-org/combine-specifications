@@ -1,5 +1,5 @@
 # CellML 1.0
-![CellML logo](cellml-logo.png) 
+![CellML logo](./files/cellml-logo.png) 
 
 CellML 1.0 has been frozen on 10 August 2001.
 
