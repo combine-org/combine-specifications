@@ -1,5 +1,5 @@
 # CellML
-[[File:logo-cellml.png]] 
+![CellML logo](cellml-logo.png) 
 
 CellML is an open standard based on the XML markup language. The purpose of CellML is to store and exchange computer-based mathematical models. CellML allows scientists to share models even if they are using different model-building software. It also enables them to reuse components from one model in another, thus accelerating model building.
 

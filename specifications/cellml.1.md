@@ -1,4 +1,6 @@
 # CellML 1.1
+![CellML logo](cellml-logo.png) 
+
 CellML 1.1 has been frozen on 28 February 2006.
 
 The specification can be found at:
