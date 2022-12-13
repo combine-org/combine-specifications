@@ -1,0 +1,42 @@
+[
+    {
+        "sid": "biopax",
+        "md": "biopax.md"
+    },
+    {
+        "sid": "biopax.level-1",
+        "md": "biopax.level-1.md",
+        "pdf": "biopax.level-1.pdf"
+    },
+    {
+        "sid": "biopax.level-2",
+        "md": "biopax.level-2.md",
+        "pdf": "biopax.level-2.pdf"
+    },
+    {
+        "sid": "biopax.level-3",
+        "md": "biopax.level-3.md",
+        "pdf": "biopax/biopax.level-3.pdf"
+    },
+    {
+        "sid": "cellml",
+        "md": "cellml.md"
+    },
+    {
+        "sid": "cellml.1",
+        "md": "cellml/cellml.1.md"
+    },
+    {
+        "sid": "cellml.1.1",
+        "md": "cellml/cellml.1.1.md"
+    }
+]
+
+
+- cellml:
+    url: /standards/cellml
+- cellml.1.0:
+    url: /standards/cellml/1/0
+
+- sbml.level-3.version-1.core.release-3:
+    url: /standards/sbml/level-3/version-1/core
