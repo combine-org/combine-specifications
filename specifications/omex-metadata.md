@@ -22,9 +22,9 @@ The SemSim Java API, a Java library that supports the specification is under dev
 
 ## How to cite OMEX Metadata
 
-Neal ML, Gennari JH, Waltemath D, Nickerson DP, König M. Open modeling and exchange (OMEX) metadata specification version 1.0. J Integr Bioinform. 2020 Jun 25;17(2-3):20200020. doi: 10.1515/jib-2020-0020. PMID: 32589606; PMCID: PMC7756623.
+Neal ML, Gennari JH, Waltemath D, Nickerson DP, König M. Open modeling and exchange (OMEX) metadata specification version 1.0. J Integr Bioinform. 2020 Jun 25;17(2-3):20200020. doi: [10.1515/jib-2020-0020](https://doi.org/10.1515/jib-2020-0020). PMID: 32589606; PMCID: PMC7756623.
 
-Gennari JH, König M, Misirli G, Neal ML, Nickerson DP, Waltemath D. OMEX metadata specification (version 1.2). J Integr Bioinform. 2021 Oct 20;18(3):20210020. doi: 10.1515/jib-2021-0020. PMID: 34668356; PMCID: PMC8560343.
+Gennari JH, König M, Misirli G, Neal ML, Nickerson DP, Waltemath D. OMEX metadata specification (version 1.2). J Integr Bioinform. 2021 Oct 20;18(3):20210020. doi: [10.1515/jib-2021-0020](https://doi.org/10.10.1515/jib-2021-0020). PMID: 34668356; PMCID: PMC8560343.
 
 ## History
 Guided by consensus from the COMBINE community, the OMEX metadata specification has been developed by Maxwell Neal, John Gennari, Dagmar Waltemath, David Nickerson, and Matthias König.
