@@ -1,5 +1,5 @@
-# SBOL Visual
-Identifier for this specification is: http://identifiers.org/combine.specifications/sbol-visual
+# SBOL Visual version 3.0.0
+Identifier for this specification is: http://identifiers.org/combine.specifications/sbol-visual.version-3.0.0
 
 Version 3.0.0 of SBOL visual was published on April 14, 2021
 
