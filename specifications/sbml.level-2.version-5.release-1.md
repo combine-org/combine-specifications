@@ -3,8 +3,9 @@ Version 5 Release 1 of Level 2 of SBML was published on 03 August 2015.
 
 The specification can be found at:
 
-http://old_co.mbine.org/specifications/sbml.level-2.version-5.release-1.pdf
-https://sbml.org/specifications/sbml-level-2/version-5/release-1/sbml-level-2-version-5-rel-1.pdf
+* [sbml.level-2.version-5.release-1.pdf](./files/sbml.level-2.version-5.release-1.pdf)
+* https://sbml.org/specifications/sbml-level-2/version-5/release-1/sbml-level-2-version-5-rel-1.pdf
+
 Identifier for this specification is: https://identifiers.org/combine.specifications/sbml.level-2.version-5.release-1
 
 To cite this document use:

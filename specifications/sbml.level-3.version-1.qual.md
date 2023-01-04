@@ -1,9 +1,9 @@
 # SBML Level 3 Qualitative Model Package Version 1 Release 1
-Release 1 of the Qualitative model ('qual') package for SBML Level 3 was published on 15 May 2013. The specification can be found at the following alternative locations:
+Release 1 of the Qualitative model ('qual') package for SBML Level 3 was published on 15 May 2013. The specification can be found at:
 
 http://old_co.mbine.org/specifications/sbml.level-3.version-1.qual.version-1.release-1.pdf
 https://sbml.org/specifications/sbml-level-3/version-1/qual/sbml-qual-version-1-release-1.pdf
-The document identifier is: https://identifiers.org/combine.specifications/sbml.level-3.version-1.qual.version-1.release-1
+Identifier for this specification is: https://identifiers.org/combine.specifications/sbml.level-3.version-1.qual.version-1.release-1
 
 To cite this document use:
 
