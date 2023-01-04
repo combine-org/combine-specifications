@@ -5,7 +5,7 @@ Version 2.3.0 of SBOL visual was published on December 4, 2020
 
 The specification can be found at:
 
-* [sbol-visual.version-2.3.0.pdf](./files/sbol-visual.version-2.3.0.pdf)
+* [sbol-visual.version-2.3.0.pdf](https://raw.githubusercontent.com/combine-org/combine-specifications/main/specifications/files/sbol-visual.version-2.3.0.pdf)
 * http://sbolstandard.org/downloads/specification-sbol-visual/
 
 To cite this document use:

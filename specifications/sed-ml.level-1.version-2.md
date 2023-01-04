@@ -4,7 +4,7 @@
 Version 1 of Level 2 of SED-ML was published on December 2, 2013.
 
 The specification can be found at:
-* [sed-ml.level-1.version-2.pdf](./files/sed-ml.level-1.version-2.pdf)
+* [sed-ml.level-1.version-2.pdf](https://raw.githubusercontent.com/combine-org/combine-specifications/main/specifications/files/sed-ml.level-1.version-2.pdf)
 
 Identifier for this specification is: https://identifiers.org/combine.specifications:sed-ml.level-1.version-2
 

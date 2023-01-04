@@ -3,7 +3,7 @@ Version 2 of Level 1 of SBML was published on 28 August 2003.
 
 The specification can be found at:
 
-* [sbml.level-1.version-2.pdf](./files/sbml.level-1.version-2.pdf)
+* [sbml.level-1.version-2.pdf](https://raw.githubusercontent.com/combine-org/combine-specifications/main/specifications/files/sbml.level-1.version-2.pdf)
 * [https://sbml.org/specifications/sbml-level-1/version-2/sbml-level-1-v2.pdf](https://sbml.org/specifications/sbml-level-1/version-2/sbml-level-1-v2.pdf)
 
 Identifier for this specification is: [https://identifiers.org/combine.specifications:sbml.level-1.version-2](https://identifiers.org/combine.specifications:sbml.level-1.version-2)

@@ -5,7 +5,7 @@ Version 1 of Level 1 of SED-ML was published on 25 March 2011.
 
 The specification can be found at:
 
-* [sed-ml.level-1.version-1.pdf](./files/sed-ml.level-1.version-1.pdf)
+* [sed-ml.level-1.version-1.pdf](https://raw.githubusercontent.com/combine-org/combine-specifications/main/specifications/files/sed-ml.level-1.version-1.pdf)
 * [http://dx.doi.org/10.1038/npre.2011.5846.1](http://dx.doi.org/10.1038/npre.2011.5846.1)
 
 Identifier for this specification is: https://identifiers.org/combine.specifications:sed-ml.level-1.version-1

@@ -5,7 +5,7 @@ Version 2.0.0 of SBOL was published on July 31, 2015.
 
 The specification can be found at:
 
-* [sbol.version-2.0.0.pdf](./files/sbol.version-2.0.0.pdf)
+* [sbol.version-2.0.0.pdf](https://raw.githubusercontent.com/combine-org/combine-specifications/main/specifications/files/sbol.version-2.0.0.pdf)
 * http://sbolstandard.org/downloads/specification-data-model-2-0/
 
 To cite this document use:

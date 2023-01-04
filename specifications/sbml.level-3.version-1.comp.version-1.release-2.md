@@ -3,7 +3,7 @@ Release 2 of the Hierarchical Model Composition ('comp') package for SBML Level 
 
 The specification can be found at:
 
-* [sbml.level-3.version-1.comp.version-1.release-2.pdf](./files/sbml.level-3.version-1.comp.version-1.release-1.pdf)
+* [sbml.level-3.version-1.comp.version-1.release-2.pdf](https://raw.githubusercontent.com/combine-org/combine-specifications/main/specifications/files/sbml.level-3.version-1.comp.version-1.release-1.pdf)
 * https://sbml.org/specifications/sbml-level-3/version-1/comp/sbml-comp-version-1-release-2.pdf
 
 * Identifier for this specification is: https://identifiers.org/combine.specifications:sbml.level-3.version-1.comp.version-1.release-2

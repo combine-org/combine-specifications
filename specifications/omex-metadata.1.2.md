@@ -3,7 +3,7 @@
 
 Identifier for this specification is: https://identifiers.org/combine.specifications:omex-metadata.1.2
 
-The specification can be found at: [omex-metadata.1.2.pdf](./files/omex-metadata.1.2.pdf)
+The specification can be found at: [omex-metadata.1.2.pdf](https://raw.githubusercontent.com/combine-org/combine-specifications/main/specifications/files/omex-metadata.1.2.pdf)
 
 For the description of the OMEX metadata see: https://identifiers.org/combine.specifications:omex-metadata
 

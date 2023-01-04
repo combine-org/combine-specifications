@@ -5,7 +5,7 @@ Version 3.0.0 of SBOL visual was published on April 14, 2021
 
 The specification can be found at:
 
-* [sbol-visual.version-3.0.0.pdf](./files/sbol-visual.version-3.0.0.pdf)
+* [sbol-visual.version-3.0.0.pdf](https://raw.githubusercontent.com/combine-org/combine-specifications/main/specifications/files/sbol-visual.version-3.0.0.pdf)
 * http://sbolstandard.org/downloads/specification-sbol-visual/
 
 To cite this document use:
