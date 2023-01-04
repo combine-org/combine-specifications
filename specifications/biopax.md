@@ -8,14 +8,14 @@ BioPAX is defined in a set of specification documents, that describe the element
 
 The identifier for this standard is: [`https://identifiers.org/combine.specifications/biopax`](https://identifiers.org/combine.specifications/biopax)
 
-The latest specification is [BioPAX Level 3](biopax-level-3.md) with [`https://identifiers.org/combine.specifications/biopax.level-3`](https://identifiers.org/combine.specifications/biopax.level-3) 
+The latest specification is [BioPAX Level 3](biopax.level-3.md) with [`https://identifiers.org/combine.specifications/biopax.level-3`](https://identifiers.org/combine.specifications/biopax.level-3) 
 
 [`https://identifiers.org/combine.specifications/biopax.level-1`](https://identifiers.org/combine.specifications/biopax.level-1)
 
 The specifications are 
-* [BioPAX Level 3](biopax-level-3.md): [`https://identifiers.org/combine.specifications/biopax.level-3`](https://identifiers.org/combine.specifications/biopax.level-3)
-* [BioPAX Level 2](biopax-level-2.md): [`https://identifiers.org/combine.specifications/biopax.level-2`](https://identifiers.org/combine.specifications/biopax.level-2)
-* [BioPAX Level 1](biopax-level-1.md): [`https://identifiers.org/combine.specifications/biopax.level-1`](https://identifiers.org/combine.specifications/biopax.level-1)
+* [BioPAX Level 3](biopax.level-3.md): [`https://identifiers.org/combine.specifications/biopax.level-3`](https://identifiers.org/combine.specifications/biopax.level-3)
+* [BioPAX Level 2](biopax.level-2.md): [`https://identifiers.org/combine.specifications/biopax.level-2`](https://identifiers.org/combine.specifications/biopax.level-2)
+* [BioPAX Level 1](biopax.level-1.md): [`https://identifiers.org/combine.specifications/biopax.level-1`](https://identifiers.org/combine.specifications/biopax.level-1)
 
 ## Governance
 

@@ -2,7 +2,7 @@
 
 Level 1 of BioPAX was published on 27 April 2005 (Level 1.4).
 
-Identifier for this specification is: [`https://identifiers.org/combine.specifications/biopax.level-1`](https://identifiers.org/combine.specifications/biopax.level-1)
+Identifier for this specification is: [https://identifiers.org/combine.specifications/biopax.level-1](https://identifiers.org/combine.specifications/biopax.level-1)
 
 The specification can be found at: 
 

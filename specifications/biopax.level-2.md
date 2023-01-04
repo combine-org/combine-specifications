@@ -1,7 +1,7 @@
 # BioPAX Level 2
 Level 3 of BioPAX was published on 30 December 2005.
 
-Identifier for this specification is: [`https://identifiers.org/combine.specifications/biopax.level-2`](https://identifiers.org/combine.specifications/biopax.level-2)
+Identifier for this specification is: [https://identifiers.org/combine.specifications/biopax.level-2](https://identifiers.org/combine.specifications/biopax.level-2)
 
 The specification can be found at: 
 
