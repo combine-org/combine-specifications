@@ -9,6 +9,7 @@ CellML is defined in a set of specification documents that describe the elements
 
 The specifications are:
 
+* [CellML 2.0](cellml.2.0.md): http://identifiers.org/combine.specifications/cellml.2.0
 * [CellML 1.1](cellml.1.1.md): http://identifiers.org/combine.specifications/cellml.1.1
 * [CellML 1.0](cellml.1.0.md): http://identifiers.org/combine.specifications/cellml.1.0
 
@@ -22,7 +23,7 @@ CellML development is discussed on the mailing list [cellml-discussion@cellml.or
 
 ## Software support
 
-There are some [tools, APIs, and libraries available](http://www.cellml.org/tools) which support the CellML format. An extensive [[http://models.cellml.org|repository of models]] is also available.
+There are some [tools, APIs, and libraries available](http://www.cellml.org/tools) which support the CellML format. An extensive [[https://models.physiomeproject.org|repository of models]] is also available.
 
 ## Contact
 
