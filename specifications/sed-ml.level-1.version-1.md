@@ -10,6 +10,6 @@ The specification can be found at:
 
 Identifier for this specification is: https://identifiers.org/combine.specifications/sed-ml.level-1.version-1
 
-To cite this document, please use:
+To cite this document use:
 
 Dagmar Waltemath, Frank T. Bergmann, Richard Adams, Nicolas Le Novère. Simulation Experiment Description Markup Language (SED-ML): Level 1 Version 1. Available from COMBINE <https://identifiers.org/combine.specifications/sed-ml.level-1.version-1> (2011)

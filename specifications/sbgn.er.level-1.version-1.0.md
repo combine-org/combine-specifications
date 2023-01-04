@@ -9,6 +9,6 @@ The specification can be found at:
 * http://dx.doi.org/10.1038/npre.2009.3719.1
 * http://sbgn.svn.sourceforge.net/viewvc/sbgn/EntityRelationship/tags/Level1-final/sbgn_ER-level1.pdf
 
-To cite this document, please use:
+To cite this document use:
 
 Nicolas Le Novère, Stuart Moodie, Anatoly Sorokin, Falk Schreiber, Huaiyu Mi. Systems Biology Graphical Notation: Entity Relationship language Level 1, Version 1.0. Available from COMBINE https://identifiers.org/combine.specifications/sbgn.er.level-1.version-1.0 (2009)

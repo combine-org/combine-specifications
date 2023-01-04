@@ -7,6 +7,6 @@ The specification can be found at: http://www.cellml.org/specifications/cellml_2
 
 Identifier for this specification is: https://identifiers.org/combine.specifications/cellml.2.0
 
-To cite this document, please use:
+To cite this document use:
 
 Michael Clerx, Michael T. Cooling, Jonathan Cooper, Alan Garny, Keri Moyle, David P. Nickerson, Poul Nielsen, Hugh Sorby. CellML 2.0 Specification. Available from COMBINE https://identifiers.org/combine.specifications/cellml.2.0 (2020)

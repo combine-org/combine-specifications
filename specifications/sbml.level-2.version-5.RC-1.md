@@ -4,7 +4,7 @@ Release candidate 1 of SBML Level 2 Version 5 was published on 28 November 2014.
 The specification can be found at:
 
 http://old_co.mbine.org/specifications/sbml.level-2.version-5.RC-1.pdf
-http://sbml.org/specifications/sbml-level-2/version-5/sbml-level-2-version-5-rc1.pdf
-Identifier for this specification is: http://identifiers.org/combine.specifications/sbml.level-2.version-5.RC-1 To cite this document, please use:
+https://sbml.org/specifications/sbml-level-2/version-5/sbml-level-2-version-5-rc1.pdf
+Identifier for this specification is: https://identifiers.org/combine.specifications/sbml.level-2.version-5.RC-1 To cite this document use:
 
-Michael Hucka, Frank T. Bergmann, Stefan Hoops, Sarah M. Keating, Nicolas Le Novère, Chris Myers, Brett G. Olivier, Sven Sahle, James C. Schaff, Lucian P. Smith, Dagmar Waltemath, and Darren J. Wilkinson. Systems Biology Markup Language (SBML) Level 2: Structures and Facilities for Model Definitions. Available from COMBINE <http://identifiers.org/combine.specifications/sbml.level-2.version-5.RC-1> (2014)
+Michael Hucka, Frank T. Bergmann, Stefan Hoops, Sarah M. Keating, Nicolas Le Novère, Chris Myers, Brett G. Olivier, Sven Sahle, James C. Schaff, Lucian P. Smith, Dagmar Waltemath, and Darren J. Wilkinson. Systems Biology Markup Language (SBML) Level 2: Structures and Facilities for Model Definitions. Available from COMBINE <https://identifiers.org/combine.specifications/sbml.level-2.version-5.RC-1> (2014)
