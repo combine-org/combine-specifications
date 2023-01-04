@@ -1,8 +1,11 @@
 # SBML Level 3 Version 1 Core Release 2
-Release 2 of the Core specification of SBML Level 3 Version 1 was published on 28 December 2016. The Release 2 specification can be found at:
+Release 2 of the Core specification of SBML Level 3 Version 1 was published on 28 December 2016. 
 
-http://old_co.mbine.org/specifications/sbml.level-3.version-1.core.release-2.pdf
-https://sbml.org/specifications/sbml-level-3/version-1/core/sbml-level-3-version-1-core-release-2.pdf
+The specification can be found at:
+
+* [sbml.level-3.version-1.core.release-2.pdf](./files/sbml.level-3.version-1.core.release-2.pdf)
+* https://sbml.org/specifications/sbml-level-3/version-1/core/sbml-level-3-version-1-core-release-2.pdf
+
 Identifier for this specification is: https://identifiers.org/combine.specifications/sbml.level-3.version-1.core.release-2
 
 To cite this document use:
