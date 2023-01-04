@@ -6,7 +6,7 @@ Version 4 of Level 1 of SED-ML was published on October 9, 2021.
 The specification can be found at:
 
 * [sed-ml.level-1.version-4.pdf](./files/sed-ml.level-1.version-4.pdf)
-* [https://github.com/SED-ML/sed-ml/releases/download/L1V4/sed-ml-L1V4.pdf](https://github.com/SED-ML/sed-ml/releases/download/L1V4/sed-ml-L1V4.pdf)
+* https://github.com/SED-ML/sed-ml/blob/master/specification/level-1-version-4/sed-ml-L1V4.pdf
 
 Identifier for this specification is: https://identifiers.org/combine.specifications:sed-ml.level-1.version-4
 
