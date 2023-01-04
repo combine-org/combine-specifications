@@ -93,8 +93,8 @@ Here is an example of the kind of annotation (using RDF) one could add to a mode
   <rdf:Description rdf:about="#MyModelElement">
     <bqbiol:hasPart>
       <rdf:Bag>
-        <rdf:li rdf:resource="http://identifiers.org/uniprot/P04551" />
-        <rdf:li rdf:resource="http://identifiers.org/uniprot/P10815" />
+        <rdf:li rdf:resource="https://identifiers.org/uniprot/P04551" />
+        <rdf:li rdf:resource="https://identifiers.org/uniprot/P10815" />
        </rdf:Bag>
     </bqbiol:hasPart>
   </rdf:Description>
@@ -109,12 +109,12 @@ Here is an example of the kind of annotation (using RDF) one could add to a mode
   <rdf:Description rdf:about="#_000001">
     <bqmodel:is>
        <rdf:Bag>
-        <rdf:li rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000004" />
+        <rdf:li rdf:resource="https://identifiers.org/biomodels.db/BIOMD0000000004" />
        </rdf:Bag>
     </bqmodel:is>
     <bqmodel:isDescribedBy>
        <rdf:Bag>
-        <rdf:li rdf:resource="http://identifiers.org/pubmed/1833774" />
+        <rdf:li rdf:resource="https://identifiers.org/pubmed/1833774" />
        </rdf:Bag>
     </bqmodel:isDescribedBy>
   </rdf:Description>

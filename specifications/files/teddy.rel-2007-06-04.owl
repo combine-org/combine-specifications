@@ -1,0 +1,710 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://www.ebi.ac.uk/compneur-srv/teddy.owl#"
+    xmlns:p1="http://www.owl-ontologies.com/assert.owl#"
+  xml:base="http://www.ebi.ac.uk/compneur-srv/teddy.owl">
+  <owl:Ontology rdf:about="">
+    <protege:defaultLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >en</protege:defaultLanguage>
+    <owl:imports rdf:resource="http://protege.stanford.edu/plugins/owl/protege"/>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >rel-2007-06-04</owl:versionInfo>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >TErminology for the Description of DYnamics (TEDDY)</Display_Name>
+  </owl:Ontology>
+  <owl:Class rdf:ID="TEDDY_0000067">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TEDDY_0000023"/>
+    </rdfs:subClassOf>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Periodicity</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000002">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Dynamical Characteristic</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TEDDY_0000000"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000076">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TEDDY_0000070"/>
+    </rdfs:subClassOf>
+    <Curator_Comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tbi.univie.ac.at/wiki/index.php/Classification_of_Dynamical_Behaviors</Curator_Comment>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saddle-Node Bifurcation of Limit-Cycles (SNLC)</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000075">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saddle-Node on Invariant Circle Bifurcation (SNIC)</Display_Name>
+    <Curator_Comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tbi.univie.ac.at/wiki/index.php/Classification_of_Dynamical_Behaviors</Curator_Comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TEDDY_0000069"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000001">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TEDDY_0000000"/>
+    </rdfs:subClassOf>
+    <Curator_Comment xml:lang="en">mathematical: A dynamical behaviour is a function from an ordered set
+ (called Time) to a totally ordered set S (called State Space).
+</Curator_Comment>
+    <Curator_Comment xml:lang="en">The set of possible states of a dynamical system has to be a metric space (Kuznetsov 1998, p.4). IMHO it's enough to require a totally ordered set.</Curator_Comment>
+    <Curator_Comment xml:lang="en">This concept is used to name concrete behaviours of dynamical systems. Concrete refers to a specified interval of time in which the behaviour takes place.</Curator_Comment>
+    <Curator_Comment xml:lang="en">The word 'dynamical' is used in order to emphasize the evolution of the 
+    state in time distinguishing the term form behaviour in ethology. 
+    'Dynamical' will be omitted in sub-terms for convenience if confusion is 
+    impossible.</Curator_Comment>
+    <Definition xml:lang="en">A Dynamical Behaviour is a temporal sequence of states of (a part of) a 
+    dynamical system. The set of possible states (state space) has to be a 
+    totally ordered set. A dynamical system is either a fully instantiated 
+    mathematical model or a particular biological entity.</Definition>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Dynamical Behaviour</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000043">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Incoherent 3-node Feedforward</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TEDDY_0000037"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000025">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Limit</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TEDDY_0000023"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000078">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TEDDY_0000070"/>
+    </rdfs:subClassOf>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Neimark-Sacker Bifurcation of Limit-Cycles (NSLC)</Display_Name>
+    <Curator_Comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tbi.univie.ac.at/wiki/index.php/Classification_of_Dynamical_Behaviors</Curator_Comment>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000048">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Orbit</Display_Name>
+    <Synonyms rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Trajectory</Synonyms>
+    <Comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Orbit==Trajectory [kuznetsov98] p.8</Comment>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000002"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000042">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Coherent 3-node Feedforward Type-4 (C4-FFL)</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TEDDY_0000038"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000068">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Regulararity</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TEDDY_0000023"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000014">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Exponential Growth</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TEDDY_0000024"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000077">
+    <Curator_Comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tbi.univie.ac.at/wiki/index.php/Classification_of_Dynamical_Behaviors</Curator_Comment>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Period-Doubling Bifurcation of Limit-Cycles (PDLC)</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TEDDY_0000070"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000011">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Steady State</Display_Name>
+    <Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A Constant Behaviour is a Monotonic Behaviour with all temporal successive state are equal.</Definition>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TEDDY_0000004"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:ID="TEDDY_0000017"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="TR_0004"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <Synonyms xml:lang="en">Constant Behaviour</Synonyms>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000024">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Unbounded Growth</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TEDDY_0000012"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000009">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TEDDY_0000007"/>
+    </rdfs:subClassOf>
+    <Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An Antitonic Behaviour is a Strictly Monotonic Behaviour with temporal successive states decreasing ordered.</Definition>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Antitonic Behaviour</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000030">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Infinite Limit</Display_Name>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000025"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000047">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Incoherent 3-node Feedforward Type-4 (I4-FFL)</Display_Name>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000043"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000063">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Damped Oscillation</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TEDDY_0000064"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000069">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bifurcation from Steady State (EP)</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TEDDY_0000053"/>
+    </rdfs:subClassOf>
+    <Curator_Comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.scholarpedia.org/article/MATCONT</Curator_Comment>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000006">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Oscillation</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TEDDY_0000005"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000004">
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000001"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Monotonic Behaviour</Display_Name>
+    <Curator_Comment xml:lang="en">cf. http://mathworld.wolfram.com/MonotonicFunction.html</Curator_Comment>
+    <Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A Monotonic Behaviour is a Dynamical Behaviour with successive states orderd in either entirely nondecreasing or entirely nonincreasing.</Definition>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000020">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Linear Decreasing Behaviour</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom>
+          <owl:Class rdf:ID="TEDDY_0000013"/>
+        </owl:allValuesFrom>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:about="#TR_0004"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000009"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000029">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Plus Infinity Limit</Display_Name>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000030"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000035">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Positive_Feedback</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TEDDY_0000033"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Generic_Metaclass">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Generic Metaclass</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000056">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Switch</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TEDDY_0000003"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000049">
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000048"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Fixed Point</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000010">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TEDDY_0000005"/>
+    </rdfs:subClassOf>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Single Turnaround Behaviour</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000023">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Curve Characteristic</Display_Name>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000002"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000055">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bursting</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TEDDY_0000005"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000000">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Teddy Entity</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000037">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >3-node Feedforward</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TEDDY_0000036"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000008">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TEDDY_0000007"/>
+    </rdfs:subClassOf>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Isotonic Behaviour</Display_Name>
+    <Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >An Isotonic Behaviour is a Strictly Monotonic Behaviour with temporal successive states increasing ordered.</Definition>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000018">
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000024"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Polynomial Growth</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000046">
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000043"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Incoherent 3-node Feedforward Type-3 (I3-FFL)</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000052">
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000002"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Parameter Dependency</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000059">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Increasing Asymptotic Behavior</Display_Name>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000008"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000044">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Incoherent 3-node Feedforward Type-1 (I1-FFL)</Display_Name>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000043"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000031">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Minus Infinity Limit</Display_Name>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000030"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000032">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sigmoid Shape</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TEDDY_0000015"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000061">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Non-Periodic Oscillating Behavior</Display_Name>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000006"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000034">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Negative_Feedback</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TEDDY_0000033"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000039">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Coherent 3-node Feedforward Type-1 (C1-FFL)</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TEDDY_0000038"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000070">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TEDDY_0000053"/>
+    </rdfs:subClassOf>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bifurcation from Limit Cycle</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000041">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TEDDY_0000038"/>
+    </rdfs:subClassOf>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Coherent 3-node Feedforward Type-3 (C3-FFL)</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000062">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TEDDY_0000064"/>
+    </rdfs:subClassOf>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sustained Oscillation</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000016">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Concave Shape</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TEDDY_0000015"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000057">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bistability</Display_Name>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000002"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000065">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mixed-Mode Oscillation</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TEDDY_0000066"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000060">
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000008"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Diverging Increasing Behavior</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000026">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Asymptotic Limit</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:ID="limit_value"/>
+        </owl:onProperty>
+        <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:cardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000025"/>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000007">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Strictly Monotonic Behaviour</Display_Name>
+    <Definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A Strictly Monotonic behaviour is a Monotonic Behevior which has no equal temporal successive states.</Definition>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000004"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000051">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="TEDDY_0000050"/>
+    </rdfs:subClassOf>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Limit Cycle</Display_Name>
+    <Comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >[jetschke89] uses the German synonym Grenzzyklus. Limit Cycle vs. Sustained Oscillation http://en.wikipedia.org/wiki/Limit_cycle</Comment>
+    <Synonyms rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grenzzyklus</Synonyms>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000058">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Decreasing Asymptotic Behavior</Display_Name>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000009"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000022">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Straight Line Shape</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TEDDY_0000015"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000027">
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000026"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Asymptotic Upper Limit</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000033">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Feedback</Display_Name>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TEDDY_0000003"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000015">
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000023"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Curve Shape</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000045">
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000043"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Incoherent 3-node Feedforward Type-2 (I2-FFL)</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000072">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Andronov-Hopf Bifurcation (H)</Display_Name>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000069"/>
+    <Curator_Comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.scholarpedia.org/article/MATCONT</Curator_Comment>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000074">
+    <Curator_Comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tbi.univie.ac.at/wiki/index.php/Classification_of_Dynamical_Behaviors</Curator_Comment>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Supercritical Andronov-Hopf Bifurcation (Supc-AH)</Display_Name>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000072"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000054">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#TEDDY_0000005"/>
+    </rdfs:subClassOf>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Chaotic Behavior</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000071">
+    <Curator_Comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.scholarpedia.org/article/MATCONT</Curator_Comment>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Saddle-Node Bifurcation (SN)</Display_Name>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000069"/>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000017">
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000018"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Zero Growth</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000021">
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000015"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Convex Shape</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000005">
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000001"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Non-Monotonic Behaviour</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000012">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Growth</Display_Name>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000023"/>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000053">
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000052"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bifurcation</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000066">
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000006"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Periodic Oscillating Behavior</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000038">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Coherent 3-node Feedforward</Display_Name>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000037"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000040">
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000038"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Coherent 3-node Feedforward Type-2 (C2-FFL)</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000050">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Periodic Orbit</Display_Name>
+    <Comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >in continuous time systems: Periodic Orbit==Cycle http://www.scholarpedia.org/article/Periodic_Orbit.  A Periodic Cycle is not exactly the same as an Oscillation. Why?</Comment>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000048"/>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000019">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:allValuesFrom>
+          <owl:Class rdf:about="#TEDDY_0000013"/>
+        </owl:allValuesFrom>
+        <owl:onProperty>
+          <owl:FunctionalProperty rdf:about="#TR_0004"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000008"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Linear Increasing Behaviour</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000013">
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000018"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Linear Growth</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000064">
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000066"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Single-Periodic Oscillating Behavior</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000073">
+    <Curator_Comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://www.tbi.univie.ac.at/wiki/index.php/Classification_of_Dynamical_Behaviors</Curator_Comment>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000072"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Subcritical Andronov-Hopf Bifurcation (Subc-AH)</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000003">
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000000"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Functionality</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:about="#TEDDY_0000036">
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000003"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Feedforward</Display_Name>
+  </owl:Class>
+  <owl:Class rdf:ID="TEDDY_0000028">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Asymptotic Lower Limit</Display_Name>
+    <rdfs:subClassOf rdf:resource="#TEDDY_0000026"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:ID="part_of">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+          <owl:Class rdf:about="#Generic_Metaclass"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="TR_0003">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has_shape</Display_Name>
+    <rdfs:domain rdf:resource="#TEDDY_0000001"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="TR_0006"/>
+    </owl:inverseOf>
+    <rdfs:subPropertyOf>
+      <owl:ObjectProperty rdf:ID="TR_0001"/>
+    </rdfs:subPropertyOf>
+    <rdfs:range rdf:resource="#TEDDY_0000002"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#TR_0001">
+    <rdfs:range rdf:resource="#TEDDY_0000002"/>
+    <rdfs:domain rdf:resource="#TEDDY_0000001"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >characterises dynamical behaviour</Display_Name>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="TR_0002">
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has_right_limit</Display_Name>
+    <rdfs:subPropertyOf rdf:resource="#TR_0001"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="TR_0005">
+    <rdfs:range rdf:resource="#TEDDY_0000000"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has_part</Display_Name>
+    <rdfs:domain rdf:resource="#TEDDY_0000000"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#TR_0006">
+    <owl:inverseOf rdf:resource="#TR_0003"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >is_shape</Display_Name>
+    <rdfs:domain rdf:resource="#TEDDY_0000002"/>
+    <rdfs:range rdf:resource="#TEDDY_0000001"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="ID">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+          <owl:Class rdf:about="#Generic_Metaclass"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="Definition_Reference">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+          <owl:Class rdf:about="#Generic_Metaclass"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="Comment">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+          <owl:Class rdf:about="#Generic_Metaclass"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+  </owl:DatatypeProperty>
+  <owl:FunctionalProperty rdf:about="#TR_0004">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <Display_Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >has_growth</Display_Name>
+    <rdfs:subPropertyOf rdf:resource="#TR_0001"/>
+  </owl:FunctionalProperty>
+  <owl:FunctionalProperty rdf:about="#limit_value">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="#TEDDY_0000025"/>
+  </owl:FunctionalProperty>
+  <owl:AnnotationProperty rdf:ID="Curator_Comment">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:comment xml:lang="en">null</rdfs:comment>
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class"/>
+          <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:ID="Definition">
+    <rdfs:domain>
+      <owl:Class>
+        <owl:unionOf rdf:parseType="Collection">
+          <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class"/>
+          <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+        </owl:unionOf>
+      </owl:Class>
+    </rdfs:domain>
+    <rdfs:comment xml:lang="en">null</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:ID="Synonyms">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:ID="Display_Name">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </owl:AnnotationProperty>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.2.1, Build 365)  http://protege.stanford.edu -->

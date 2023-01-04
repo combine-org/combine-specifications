@@ -1,5 +1,5 @@
 # SBGN PD Level 1
-The identifier for this specification is: http://identifiers.org/combine.specifications/sbgn-pd.level-1
+The identifier for this specification is: https://identifiers.org/combine.specifications/sbgn-pd.level-1
 
 Version 2.0 of Level 1 of the SBGN Process Description Language was published on released on 13 June 2019.
 

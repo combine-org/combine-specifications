@@ -1,5 +1,5 @@
 # SBGN Entity Relationships (ER)
-The identifier for this specification is: http://identifiers.org/combine.specifications/sbgn-er
+The identifier for this specification is: https://identifiers.org/combine.specifications/sbgn-er
 
 The SBGN Entity Relationship (ER) language allows you to see all the relationships in which a given entity participates, regardless of the temporal aspects. Relationships can be seen as rules describing the influences of entities nodes on other relationships.
 

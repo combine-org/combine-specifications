@@ -1,0 +1,2145 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY teddy "http://biomodels.net/teddy/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY protege "http://protege.stanford.edu/plugins/owl/protege#" >
+]>
+
+
+<rdf:RDF xmlns="http://biomodels.net/teddy/"
+     xml:base="http://biomodels.net/teddy/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:teddy="http://biomodels.net/teddy/">
+    <owl:Ontology rdf:about="http://biomodels.net/teddy/">
+        <rdfs:seeAlso rdf:datatype="&xsd;string">http://teddyontology.sourceforge.net/</rdfs:seeAlso>
+        <owl:priorVersion rdf:datatype="&xsd;anyURI">https://teddyontology.svn.sourceforge.net/svnroot/teddyontology/teddy/tags/rel-2009-10-16/ontology/teddy.owl</owl:priorVersion>
+        <rdfs:label>TErminology for the Description of DYnamics (TEDDY)</rdfs:label>
+        <rdfs:comment xml:lang="en">The TErminology for the Description of DYnamics (TEDDY) project aims to provide an ontology for dynamical behaviours, observable dynamical phenomena, and control elements of bio-models and biological systems in Systems Biology and Synthetic Biology.</rdfs:comment>
+        <owl:versionInfo xml:lang="en">rel-2011-03-10</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="&teddy;DisplayName"/>
+    <owl:AnnotationProperty rdf:about="&teddy;Synonym"/>
+    <owl:AnnotationProperty rdf:about="&teddy;Reference"/>
+    <owl:AnnotationProperty rdf:about="&teddy;Definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://biomodels.net/teddy/TR_0004 -->
+
+    <owl:ObjectProperty rdf:about="&teddy;TR_0004">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <DisplayName rdf:datatype="&xsd;string">hasCharacteristic</DisplayName>
+        <Definition xml:lang="en">Used to describe properties of a Temporal Behaviour by means of Behaviour Characteristic.</Definition>
+        <rdfs:range rdf:resource="&teddy;TEDDY_0000002"/>
+        <rdfs:domain rdf:resource="&teddy;TEDDY_0000083"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://biomodels.net/teddy/TR_0005 -->
+
+    <owl:ObjectProperty rdf:about="&teddy;TR_0005">
+        <DisplayName rdf:datatype="&xsd;string">hasPart</DisplayName>
+        <rdfs:domain rdf:resource="&teddy;TEDDY_0000000"/>
+        <rdfs:range rdf:resource="&teddy;TEDDY_0000000"/>
+        <owl:inverseOf rdf:resource="&teddy;TR_0007"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://biomodels.net/teddy/TR_0006 -->
+
+    <owl:ObjectProperty rdf:about="&teddy;TR_0006">
+        <DisplayName rdf:datatype="&xsd;string">hasSubPart</DisplayName>
+        <rdfs:subPropertyOf rdf:resource="&teddy;TR_0005"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://biomodels.net/teddy/TR_0007 -->
+
+    <owl:ObjectProperty rdf:about="&teddy;TR_0007">
+        <DisplayName rdf:datatype="&xsd;string">partOf</DisplayName>
+        <rdfs:range rdf:resource="&teddy;TEDDY_0000000"/>
+        <rdfs:domain rdf:resource="&teddy;TEDDY_0000000"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://biomodels.net/teddy/TR_0008 -->
+
+    <owl:ObjectProperty rdf:about="&teddy;TR_0008">
+        <DisplayName rdf:datatype="&xsd;string">hasSuperPart</DisplayName>
+        <rdfs:subPropertyOf rdf:resource="&teddy;TR_0005"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://biomodels.net/teddy/TR_0010 -->
+
+    <owl:ObjectProperty rdf:about="&teddy;TR_0010">
+        <DisplayName rdf:datatype="&xsd;string">hasOnPart</DisplayName>
+        <rdfs:subPropertyOf rdf:resource="&teddy;TR_0005"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://biomodels.net/teddy/TR_0012 -->
+
+    <owl:ObjectProperty rdf:about="&teddy;TR_0012">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <Definition xml:lang="en">Two Temporal Behaviours are adjacentTo each other if and only if they are in phase space proximity.</Definition>
+        <DisplayName>adjacentTo</DisplayName>
+        <rdfs:range rdf:resource="&teddy;TEDDY_0000083"/>
+        <rdfs:domain rdf:resource="&teddy;TEDDY_0000083"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://biomodels.net/teddy/TR_0013 -->
+
+    <owl:ObjectProperty rdf:about="&teddy;TR_0013">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <DisplayName>convergeTo</DisplayName>
+        <Definition xml:lang="en">A Temporal Behaviour convergeTo another Temporal Behaviour if and only if it reaches the other Behaviour as time goes to either positive or negative infinity.</Definition>
+        <rdfs:range rdf:resource="&teddy;TEDDY_0000083"/>
+        <rdfs:domain rdf:resource="&teddy;TEDDY_0000083"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://biomodels.net/teddy/Definition -->
+
+    <owl:DatatypeProperty rdf:about="&teddy;Definition">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://biomodels.net/teddy/DisplayName -->
+
+    <owl:DatatypeProperty rdf:about="&teddy;DisplayName">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://biomodels.net/teddy/Reference -->
+
+    <owl:DatatypeProperty rdf:about="&teddy;Reference">
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://biomodels.net/teddy/Synonym -->
+
+    <owl:DatatypeProperty rdf:about="&teddy;Synonym">
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://biomodels.net/teddy/TR_0009 -->
+
+    <owl:DatatypeProperty rdf:about="&teddy;TR_0009">
+        <DisplayName rdf:datatype="&xsd;string">hasValue</DisplayName>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://protege.stanford.edu/plugins/owl/protege#defaultLanguage -->
+
+    <owl:DatatypeProperty rdf:about="&protege;defaultLanguage"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000000 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000000">
+        <Definition rdf:datatype="&xsd;string">A Thing related to the dynamics of bio-models and biological systems. Terms belonging to TEDDY Entities are used in descriptions of dynamical behaviours, observable dynamical phenomena, and control elements in Systems Biology and Synthetic Biology.</Definition>
+        <DisplayName rdf:datatype="&xsd;string">TEDDY entity</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000001 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000001">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_obsolete"/>
+        <Definition rdf:datatype="&xsd;string">Obsolete: equivalent to TEDDY_0000083 'Temporal Behaviour'.</Definition>
+        <DisplayName rdf:datatype="&xsd;string">curve ((obsolete))</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000002 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000002">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000000"/>
+        <DisplayName rdf:datatype="&xsd;string">behaviour characteristic</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000003 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000003">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000000"/>
+        <DisplayName rdf:datatype="&xsd;string">functional motif</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000004 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000004">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000144"/>
+        <Definition rdf:datatype="&xsd;string">A curve is `monotonic` if successive states are orderd either entirely non-decreasing or entirely non-increasing.</Definition>
+        <Reference rdf:datatype="&xsd;string">http://mathworld.wolfram.com/MonotonicFunction.html</Reference>
+        <DisplayName>monotonic</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000005 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000005">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000144"/>
+        <Definition rdf:datatype="&xsd;string">A curve is Non-Monotonic if it has both increasing ordered successive states and decreasing orderd succesive states.</Definition>
+        <DisplayName>non-monotonic</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000006 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000006">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000005"/>
+        <DisplayName>oscillating</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000007 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000007">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000004"/>
+        <Definition rdf:datatype="&xsd;string">A curve is Strictly Monotonic if it is Monotonic and has no equal temporal successive states.</Definition>
+        <DisplayName rdf:datatype="&xsd;string">strictly monotonic</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000008 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000008">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000007"/>
+        <Definition rdf:datatype="&xsd;string">A curve is Strictly Increasing if it is Strictly Monotonic with temporal successive states increasing ordered.</Definition>
+        <DisplayName rdf:datatype="&xsd;string">strictly increasing (isotonic)</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000009 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000009">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000007"/>
+        <Definition rdf:datatype="&xsd;string">A curve is Strictly Decreasing if it is Strictly Monotonic with temporal successive states decreasing ordered.</Definition>
+        <DisplayName rdf:datatype="&xsd;string">strictly decreasing (antitonic)</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000010 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000010">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000005"/>
+        <DisplayName rdf:datatype="&xsd;string">single turnaround</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000011 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000011">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_obsolete"/>
+        <Definition rdf:datatype="&xsd;string">Obsolete: equivalent to TEDDY_0000086 'Fixed Point'.</Definition>
+        <DisplayName>steady state ((obsolete))</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000012 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000012">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000023"/>
+        <DisplayName rdf:datatype="&xsd;string">growth</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000013 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000013">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000018"/>
+        <DisplayName rdf:datatype="&xsd;string">linear growth</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000014 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000014">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000024"/>
+        <DisplayName rdf:datatype="&xsd;string">exponential growth</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000015 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000015">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000023"/>
+        <DisplayName rdf:datatype="&xsd;string">curve shape</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000016 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000016">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000015"/>
+        <DisplayName rdf:datatype="&xsd;string">concave shape</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000017 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000017">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000018"/>
+        <DisplayName rdf:datatype="&xsd;string">zero growth</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000018 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000018">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000024"/>
+        <DisplayName rdf:datatype="&xsd;string">polynomial growth</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000019 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000019">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0004"/>
+                <owl:allValuesFrom rdf:resource="&teddy;TEDDY_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <DisplayName rdf:datatype="&xsd;string">linear increasing</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000020 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000020">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000009"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0004"/>
+                <owl:allValuesFrom rdf:resource="&teddy;TEDDY_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <DisplayName rdf:datatype="&xsd;string">linear decreasing</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000021 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000021">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000015"/>
+        <DisplayName rdf:datatype="&xsd;string">convex shape</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000022 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000022">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000015"/>
+        <DisplayName rdf:datatype="&xsd;string">straight line shape</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000023 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000023">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000002"/>
+        <DisplayName rdf:datatype="&xsd;string">curve characteristic</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000024 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000024">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000012"/>
+        <DisplayName rdf:datatype="&xsd;string">unbounded growth</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000025 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000025">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000023"/>
+        <DisplayName rdf:datatype="&xsd;string">limit</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000026 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000026">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000025"/>
+        <DisplayName rdf:datatype="&xsd;string">asymptotic limit</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000027 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000027">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000026"/>
+        <DisplayName rdf:datatype="&xsd;string">asymptotic upper limit</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000028 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000028">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000026"/>
+        <DisplayName rdf:datatype="&xsd;string">asymptotic lower limit</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000029 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000029">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000030"/>
+        <DisplayName rdf:datatype="&xsd;string">plus infinity limit</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000030 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000030">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000025"/>
+        <DisplayName rdf:datatype="&xsd;string">infinite limit</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000031 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000031">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000030"/>
+        <DisplayName rdf:datatype="&xsd;string">minus infinity limit</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000032 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000032">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0005"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0005"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <DisplayName rdf:datatype="&xsd;string">sigmoid shape</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000033 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000033">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000003"/>
+        <DisplayName rdf:datatype="&xsd;string">feedback</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000034 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000034">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000033"/>
+        <DisplayName rdf:datatype="&xsd;string">negative feedback</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000035 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000035">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000033"/>
+        <DisplayName rdf:datatype="&xsd;string">positive feedback</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000036 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000036">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000003"/>
+        <DisplayName rdf:datatype="&xsd;string">feedforward</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000037 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000037">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000036"/>
+        <DisplayName rdf:datatype="&xsd;string">3-node feedforward</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000038 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000038">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000037"/>
+        <DisplayName rdf:datatype="&xsd;string">coherent 3-node feedforward</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000039 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000039">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000038"/>
+        <Synonym rdf:datatype="&xsd;string">C1-FFL</Synonym>
+        <DisplayName rdf:datatype="&xsd;string">coherent 3-node feedforward type-1</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000040 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000040">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000038"/>
+        <Synonym rdf:datatype="&xsd;string">C2-FFL</Synonym>
+        <DisplayName rdf:datatype="&xsd;string">coherent 3-node feedforward type-2</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000041 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000041">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000038"/>
+        <Synonym rdf:datatype="&xsd;string">C3-FFL</Synonym>
+        <DisplayName rdf:datatype="&xsd;string">coherent 3-node feedforward type-3</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000042 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000042">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000038"/>
+        <Synonym rdf:datatype="&xsd;string">C4-FFL</Synonym>
+        <DisplayName rdf:datatype="&xsd;string">coherent 3-node feedforward type-4</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000043 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000043">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000037"/>
+        <DisplayName rdf:datatype="&xsd;string">incoherent 3-node feedforward</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000044 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000044">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000043"/>
+        <Synonym rdf:datatype="&xsd;string">I1-FFL</Synonym>
+        <DisplayName rdf:datatype="&xsd;string">incoherent 3-node feedforward type-1</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000045 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000045">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000043"/>
+        <Synonym rdf:datatype="&xsd;string">I2-FFL</Synonym>
+        <DisplayName rdf:datatype="&xsd;string">incoherent 3-node feedforward type-2</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000046 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000046">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000043"/>
+        <Synonym rdf:datatype="&xsd;string">I3-FFL</Synonym>
+        <DisplayName rdf:datatype="&xsd;string">incoherent 3-node feedforward type-3</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000047 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000047">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000043"/>
+        <Synonym rdf:datatype="&xsd;string">I4-FFL</Synonym>
+        <DisplayName rdf:datatype="&xsd;string">incoherent 3-node feedforward type-4</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000048 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000048">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_obsolete"/>
+        <DisplayName rdf:datatype="&xsd;string">orbit ((obsolete))</DisplayName>
+        <Definition>Obsolete: equivalent to TEDDY_0000083 'Temporal Behaviour'.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000049 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000049">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_obsolete"/>
+        <DisplayName rdf:datatype="&xsd;string">fixed point ((obsolete))</DisplayName>
+        <Definition>Obsolete: equivalent to TEDDY_0000086 'Fixed Point'.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000050 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000050">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000083"/>
+        <Definition>A Temporal Behaviour which repeats every state after a specific period of time.</Definition>
+        <Synonym>Periodic Solution</Synonym>
+        <Synonym>Closed Orbit</Synonym>
+        <Synonym>Cycle</Synonym>
+        <DisplayName>periodic orbit</DisplayName>
+        <Reference>urn:miriam:isbn:0387983821 (p.9)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000051 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000051">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000050"/>
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000085"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&teddy;TR_0012"/>
+                        <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000050"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="&xsd;string">German synonym Grenzzyklus: ISBN 3817112823</rdfs:comment>
+        <DisplayName rdf:datatype="&xsd;string">limit cycle</DisplayName>
+        <Synonym>Grenzzyklus</Synonym>
+        <Definition>A Closed Orbit which is isolated, i.e. neighbouring Orbits are not closed.</Definition>
+        <Reference>urn:miriam:isbn:0738204536 (p.196)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000052 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000052">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_obsolete"/>
+        <DisplayName rdf:datatype="&xsd;string">parameter dependency ((obsolete))</DisplayName>
+        <Definition>Obsolete: not required anymore.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000053 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000053">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000132"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0006"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0008"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition rdf:datatype="&xsd;string">A `characteristic` describing a qualitative (topological) change in the orbit structure of a system.</Definition>
+        <DisplayName rdf:datatype="&xsd;string">bifurcation</DisplayName>
+        <Reference rdf:datatype="&xsd;string">http://www.egwald.com/nonlineardynamics/bifurcations.php</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000054 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000054">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000103"/>
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000143"/>
+        <Definition rdf:datatype="&xsd;string">An Non-Periodic Orbit which is Attracting and exhibits sensitive dependence on initial conditions.</Definition>
+        <Synonym rdf:datatype="&xsd;string">Chaotic Attractor</Synonym>
+        <Synonym rdf:datatype="&xsd;string">Fractal Attractor</Synonym>
+        <rdfs:comment rdf:datatype="&xsd;string">Synonyms 'Chaotic Attractor', 'Fractal Attractor': urn:miriam:isbn:0738204536 (p.325)</rdfs:comment>
+        <DisplayName rdf:datatype="&xsd;string">strange attractor</DisplayName>
+        <Reference rdf:datatype="&xsd;anyURI">urn:miriam:isbn:0738204536 (p.325)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000055 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000055">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000132"/>
+        <DisplayName rdf:datatype="&xsd;string">bursting</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000056 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000056">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000003"/>
+        <DisplayName rdf:datatype="&xsd;string">switch</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000057 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000057">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_obsolete"/>
+        <DisplayName rdf:datatype="&xsd;string">stability ((obsolete))</DisplayName>
+        <Definition>Obsolete: not required anymore.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000058 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000058">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000009"/>
+        <DisplayName rdf:datatype="&xsd;string">asymptotic decreasing</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000059 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000059">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000008"/>
+        <DisplayName rdf:datatype="&xsd;string">asymptotic increasing</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000060 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000060">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000008"/>
+        <DisplayName rdf:datatype="&xsd;string">diverging increasing</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000061 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000061">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000006"/>
+        <DisplayName>non-periodically oscillating</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000062 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000062">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_obsolete"/>
+        <DisplayName>sustained oscillation ((obsolete))</DisplayName>
+        <Definition>Obsolete: equivalent to TEDDY_0000051 'Limit Cycle'.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000063 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000063">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000006"/>
+        <DisplayName rdf:datatype="&xsd;string">damped oscillating</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000064 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000064">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000066"/>
+        <DisplayName>single-periodically oscillating</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000065 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000065">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000066"/>
+        <DisplayName>mixed-mode oscillating</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000066 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000066">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000006"/>
+        <DisplayName>periodically oscillating</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000067 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000067">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000002"/>
+        <DisplayName rdf:datatype="&xsd;string">period</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000068 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000068">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_obsolete"/>
+        <DisplayName rdf:datatype="&xsd;string">regularity ((obsolete))</DisplayName>
+        <Definition>Obsolete: not required anymore.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000069 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000069">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000053"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0006"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition rdf:datatype="&xsd;string">A `bifurcation` in which a `stable fixed point` changes to an unstable one or vanishes. It can be detected within any small neighborhood of the fixed point: The real part of the eigenvalue of the linarisation around the fixed point is zero at the bifurcation.</Definition>
+        <Synonym rdf:datatype="&xsd;string">Bifurcation from Steady State (EP)</Synonym>
+        <Synonym rdf:datatype="&xsd;string">Bifurcation of Equilibrium</Synonym>
+        <Synonym rdf:datatype="&xsd;string">Bifurcation of Fixed Point</Synonym>
+        <Reference rdf:datatype="&xsd;string">http://en.wikipedia.org/wiki/Bifurcation_theory#Local_bifurcations</Reference>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0387983821 (p.58)</Reference>
+        <DisplayName rdf:datatype="&xsd;string">local bifurcation</DisplayName>
+        <rdfs:comment rdf:datatype="&xsd;string">synonym 'Bifurcation from Steady State (EP)': http://www.scholarpedia.org/article/MATCONT</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">synonyms 'Bifurcation of Equilibrium', 'Bifurcation of Fixed Point': urn:miriam:isbn:0387983821 (p.58)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000070 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000070">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000053"/>
+        <DisplayName rdf:datatype="&xsd;string">bifurcation from limit cycle</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000071 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000071">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000123"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0006"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000129"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition rdf:datatype="&xsd;string">A `zero-eigenvalue bifurcation` in which a `stable fixed point` and an `unstable fixed point` collide and mutually annihilate.</Definition>
+        <Synonym rdf:datatype="&xsd;string">Blue Sky Bifurcation</Synonym>
+        <Synonym rdf:datatype="&xsd;string">Fold Bifurcation</Synonym>
+        <Synonym rdf:datatype="&xsd;string">Limit Point Bifurcation</Synonym>
+        <Synonym rdf:datatype="&xsd;string">Tangent Bifurcation</Synonym>
+        <Synonym rdf:datatype="&xsd;string">Turning-Point Bifurcation</Synonym>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0387983821 (p.80)</Reference>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0738204536 (p.45)</Reference>
+        <DisplayName rdf:datatype="&xsd;string">saddle-node bifurcation</DisplayName>
+        <rdfs:comment rdf:datatype="&xsd;string">synonym 'Limit Point Bifurcation': http://www.scholarpedia.org/article/Saddle-node_Bifurcation</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">synonym 'Tangent Bifurcation': urn:miriam:isbn:0387983821 (p.80)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">synonyms 'Fold Bifurctaion', 'Turning-Point Bifurcation', 'Blue Sky Bifurcation': urn:miriam:isbn:0738204536 (p.47)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000072 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000072">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000069"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0008"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000127"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0006"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000126"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition rdf:datatype="&xsd;string">A `local bifurcation` in which a `stable spiral` changes in an `unstable spiral`.  The linearisation around the fixed point has two conjugate  eigenvalues. This eigenvalues cross simultaneously the imaginary axis from left (negative real part) to the right during the bifurcation.</Definition>
+        <Synonym rdf:datatype="&xsd;string">Andronov-Hopf Bifurcation</Synonym>
+        <DisplayName rdf:datatype="&xsd;string">hopf bifurcation</DisplayName>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0738204536 (p.248ff)</Reference>
+        <rdfs:comment rdf:datatype="&xsd;string">synonym 'Andronov-Hopf Bifurcation': urn:miriam:isbn:0387983821 (p.80)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000073 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000073">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0006"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000128"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition rdf:datatype="&xsd;string">A `hopf bifurcation` in which an `unstable limit cycle` is destroyed.</Definition>
+        <Synonym rdf:datatype="&xsd;string">Subcritical Andronov-Hopf Bifurcation (Subc-AH)</Synonym>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0387983821 (p.88)</Reference>
+        <DisplayName rdf:datatype="&xsd;string">subcritical hopf bifurcation</DisplayName>
+        <rdfs:comment rdf:datatype="&xsd;string">synonym 'Subcritical Andronov-Hopf Bifurcation (Subc-AH)': http://www.tbi.univie.ac.at/wiki/index.php/Classification_of_Dynamical_Behaviors</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000074 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000074">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0008"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000114"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition rdf:datatype="&xsd;string">A `hopf bifurcation` in which an `stable limit cycle` appears.</Definition>
+        <Synonym rdf:datatype="&xsd;string">Supercritical Andronov-Hopf Bifurcation (Supc-AH)</Synonym>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0738204536 (p.249)</Reference>
+        <DisplayName rdf:datatype="&xsd;string">supercritical hopf bifurcation</DisplayName>
+        <rdfs:comment rdf:datatype="&xsd;string">synonym 'Supercritical Andronov-Hopf Bifurcation (Supc-AH)': http://www.tbi.univie.ac.at/wiki/index.php/Classification_of_Dynamical_Behaviors</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000075 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000075">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000069"/>
+        <Synonym rdf:datatype="&xsd;string">SNIC</Synonym>
+        <DisplayName rdf:datatype="&xsd;string">saddle-node on invariant circle bifurcation</DisplayName>
+        <rdfs:comment rdf:datatype="&xsd;string">synonym 'SNIC': http://www.tbi.univie.ac.at/wiki/index.php/Classification_of_Dynamical_Behaviors</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000076 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000076">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000070"/>
+        <Synonym rdf:datatype="&xsd;string">SNLC</Synonym>
+        <DisplayName rdf:datatype="&xsd;string">saddle-node bifurcation of limit-cycles</DisplayName>
+        <rdfs:comment rdf:datatype="&xsd;string">synonym 'SNLC': http://www.tbi.univie.ac.at/wiki/index.php/Classification_of_Dynamical_Behaviors</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000077 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000077">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000070"/>
+        <Synonym rdf:datatype="&xsd;string">PDLC</Synonym>
+        <DisplayName rdf:datatype="&xsd;string">period-doubling bifurcation of limit-cycles</DisplayName>
+        <rdfs:comment rdf:datatype="&xsd;string">synonym 'PDLC': http://www.tbi.univie.ac.at/wiki/index.php/Classification_of_Dynamical_Behaviors</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000078 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000078">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000070"/>
+        <Synonym rdf:datatype="&xsd;string">NSLC</Synonym>
+        <DisplayName rdf:datatype="&xsd;string">neimark-sacker bifurcation of limit-cycles</DisplayName>
+        <rdfs:comment rdf:datatype="&xsd;string">synonym 'NSLC': http://www.tbi.univie.ac.at/wiki/index.php/Classification_of_Dynamical_Behaviors</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000079 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000079">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000003"/>
+        <DisplayName rdf:datatype="&xsd;string">integrator</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000080 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000080">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_obsolete"/>
+        <DisplayName rdf:datatype="&xsd;string">_obsolete behaviour ((obsolete))</DisplayName>
+        <Definition>Obsolete: only one obsolete branch required.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000081 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000081">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_obsolete"/>
+        <DisplayName rdf:datatype="&xsd;string">_obsolete characteristic ((obsolete))</DisplayName>
+        <Definition>Obsolete: only one obsolete branch required.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000082 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000082">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_obsolete"/>
+        <DisplayName rdf:datatype="&xsd;string">_obsolete functionality ((obsolete))</DisplayName>
+        <Definition>Obsolete: only one obsolete branch required.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000083 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000083">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000000"/>
+        <DisplayName rdf:datatype="&xsd;string">temporal behaviour</DisplayName>
+        <Synonym>Phase Curve</Synonym>
+        <Synonym>Solution Curve</Synonym>
+        <Definition>A temporal sequence of states following the evolution operator  of the dynamical  system through a given initial state.</Definition>
+        <rdfs:comment>Synonyms: Orbit (urn:miriam:isbn:0387983821 p.8), Trajectory (urn:miriam:isbn:0387983821 p.8), Solution Curve (urn:miriam:isbn:0387908196 p.2)</rdfs:comment>
+        <Synonym>Orbit</Synonym>
+        <Synonym>Trajectory</Synonym>
+        <Reference>urn:miriam:isbn:0387983821 (p.8)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000084 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000084">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_obsolete"/>
+        <DisplayName rdf:datatype="&xsd;string">parametrical behaviour ((obsolete))</DisplayName>
+        <Definition>Obsolete: not required anymore.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000085 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000085">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000083"/>
+        <DisplayName rdf:datatype="&xsd;string">limit behaviour</DisplayName>
+        <Reference>urn:miriam:isbn:0387983821 (p.10)</Reference>
+        <Definition>A `temporal behaviour` [TEDDY_0000083] with all behaviours starting sufficiently near converge to it as time goes to either positive or negative infinity.</Definition>
+        <Synonym xml:lang="en">Asymptotic State</Synonym>
+        <Synonym xml:lang="en">Limit Set</Synonym>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000086 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000086">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000083"/>
+        <DisplayName rdf:datatype="&xsd;string">fixed point</DisplayName>
+        <Reference rdf:datatype="&xsd;anyURI">http://mathworld.wolfram.com/FixedPoint.html</Reference>
+        <Synonym>Rest Solution</Synonym>
+        <Synonym>Equilibrium</Synonym>
+        <Definition>A Temporal Behaviour which does not change its state.</Definition>
+        <Synonym>Equilibrium Point</Synonym>
+        <Synonym>Constant Solution</Synonym>
+        <Synonym>Steady State</Synonym>
+        <Synonym>Constant Behaviour</Synonym>
+        <Synonym>Critical Point</Synonym>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000087 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000087">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000086"/>
+        <Definition rdf:datatype="&xsd;string">A Fixed Point for which the Jacobian matrix has real-valued eigenvalues of the same sign.</Definition>
+        <DisplayName rdf:datatype="&xsd;string">fixed point node</DisplayName>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0738204536 (p.137)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000088 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000088">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000115"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0012"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <DisplayName rdf:datatype="&xsd;string">center</DisplayName>
+        <Definition>A Fixed Point for which the Jacobian matrix has purely imaginary complex conjugate eigenvalues. The Fixed Point is surrounded by a family of Cycles in the phase portrait.</Definition>
+        <Reference>urn:miriam:isbn:0738204536 (p.134,137)</Reference>
+        <Synonym>Elliptic Fixed Point</Synonym>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000089 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000089">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000086"/>
+        <DisplayName rdf:datatype="&xsd;string">saddle point</DisplayName>
+        <rdfs:comment>Is also called `hyperbolic fixed point` (http://mathworld.wolfram.com/HyperbolicFixedPoint.html), but `hyperbolic fixed point` is also used for `non-elliptic fixed point`, i.e. eigenvalues are not purely imaginary (References#strogatz00, p.155; http://www.egwald.ca/nonlineardynamics/twodimensionaldynamics.php#topologicalclassification).</rdfs:comment>
+        <Reference>urn:miriam:isbn:0738204536 (p.137)</Reference>
+        <Definition>A Fixed Point for which the Jacobian matrix has real-valued eigenvalues of opposite signs.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000090 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000090">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000086"/>
+        <DisplayName>star</DisplayName>
+        <Definition>A Fixed Point for which the Jacobian Matrix has identical eigenvalues and two independent corresponding eigenvectors. All other trajectories of the system lie on straight through the Fixed Point.</Definition>
+        <Reference>urn:miriam:isbn:0738204536 (p.135)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000091 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000091">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000086"/>
+        <DisplayName>spiral point</DisplayName>
+        <Reference>urn:miriam:isbn:0738204536 (p.134,137)</Reference>
+        <Definition>A Fixed Point for which the Jacobian matrix has not purely imaginary complex conjugate eigenvalues. The Fixed Point is surrounded by spiralling behaviours.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000092 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000092">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000086"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0012"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <DisplayName rdf:datatype="&xsd;string">non-isolated fixed point</DisplayName>
+        <Definition>A Fixed Point for which at least one eigenvalue of the Jacobian matrix is zero. If the other eigenvalue is non-zero the system has an entire line of fixed points along one dimension. If both eigenvalues are zero the system has a entire plane of fixed points.</Definition>
+        <Reference>urn:miriam:isbn:0738204536 (p.128,137)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000093 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000093">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000086"/>
+        <DisplayName rdf:datatype="&xsd;string">degenerated node</DisplayName>
+        <Reference>urn:miriam:isbn:0738204536 (p.135f)</Reference>
+        <Definition>A Fixed Point for which the Jacobian Matrix has identical eigenvalues and only one independent eigenvector. All other trajectories of the system asymptotically become parallel to the unique eigendirection.</Definition>
+        <Synonym>Improper Node</Synonym>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000094 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000094">
+        <owl:equivalentClass rdf:resource="&teddy;TEDDY_0000103"/>
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000085"/>
+        <DisplayName rdf:datatype="&xsd;string">attractor</DisplayName>
+        <Definition xml:lang="en">An `asymptotic behaviour` to which all neighboring trajectories converge.</Definition>
+        <Reference xml:lang="en">ISBN 0738204536 (p.324)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000095 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000095">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000086"/>
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000133"/>
+        <DisplayName>liapunov stable fixed point</DisplayName>
+        <Reference>urn:miriam:isbn:0738204536 (p.129)</Reference>
+        <Definition>A Fixed Point which is Liapunov Stable.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000096 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000096">
+        <owl:equivalentClass rdf:resource="&teddy;TEDDY_0000102"/>
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000085"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&teddy;TEDDY_0000103"/>
+                            <rdf:Description rdf:about="&teddy;TEDDY_0000133"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <Definition rdf:datatype="&xsd;string">A `limit behaviour` which it is neither a `Liapunov stable behaviour` nor a `stable behaviour`.</Definition>
+        <Synonym rdf:datatype="&xsd;string">Repeller</Synonym>
+        <DisplayName rdf:datatype="&xsd;string">unstable behaviour</DisplayName>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0738204536 (p.129)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000097 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000097">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000103"/>
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000133"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <Definition rdf:datatype="&xsd;string">A `stable behaviour` which is also a `Liapunov stable behaviour`.</Definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Synonyms: `stable behaviour` (urn:miriam:isbn:0738204536, p.129)</rdfs:comment>
+        <DisplayName rdf:datatype="&xsd;string">asymptotically stable behaviour</DisplayName>
+        <Synonym rdf:datatype="&xsd;string">stable behaviour</Synonym>
+        <Reference>urn:miriam:isbn:0738204536 (p.129)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000098 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000098">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000133"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="&teddy;TEDDY_0000103"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <Definition rdf:datatype="&xsd;string">A Behaviour is which is Liapunov Stable and not Attracting.</Definition>
+        <DisplayName rdf:datatype="&xsd;string">neutrally stable</DisplayName>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0738204536 (p.129)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000099 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000099">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000143"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0013"/>
+                <owl:onClass rdf:resource="&teddy;TEDDY_0000099"/>
+                <owl:maxQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:maxQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0013"/>
+                <owl:onClass rdf:resource="&teddy;TEDDY_0000089"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <DisplayName>saddle connection</DisplayName>
+        <Definition>A Temporal Behaviour connecting two Saddle Points.</Definition>
+        <Reference>urn:miriam:isbn:0738204536 (p.184)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000100 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000100">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000099"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0013"/>
+                <owl:onClass rdf:resource="&teddy;TEDDY_0000089"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <DisplayName rdf:datatype="&xsd;string">homoclinic orbit</DisplayName>
+        <Reference>urn:miriam:isbn:0738204536 (p.161)</Reference>
+        <Definition>A Saddle Connection connecting a Saddle Point to itself.</Definition>
+        <rdfs:comment>Synonyms: Homoclinic Loop (urn:miriam:isbn:3540971416 p.213), Saddle Loop (http://www.egwald.ca/nonlineardynamics/mathappendix.php#limitset)</rdfs:comment>
+        <Synonym>Homoclinic Loop</Synonym>
+        <Synonym>Saddle Loop</Synonym>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000101 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000101">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000099"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0013"/>
+                <owl:onClass rdf:resource="&teddy;TEDDY_0000089"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:qualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <DisplayName rdf:datatype="&xsd;string">heteroclinic orbit</DisplayName>
+        <Synonym>Heteroclinic Trajectory</Synonym>
+        <rdfs:comment>The term `saddle connection` is used as a synonym for a heteroclinic orbit (urn:miriam:isbn:0738204536 (p.166) ). But `saddle connection` is also used for both: homoclinic and heteroclinic orbits (urn:miriam:isbn:0387943773 (p.184)).</rdfs:comment>
+        <Definition>A Saddle Connection connecting two different Saddle Points.</Definition>
+        <Reference>urn:miriam:isbn:0738204536 (p.166)</Reference>
+        <rdfs:comment>Synonyms: Heteroclinic Trajectory (urn:miriam:isbn:0738204536 p.166)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000102 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000102">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000085"/>
+        <Definition rdf:datatype="&xsd;string">A `repelling` `asymptotic behaviour`.</Definition>
+        <Synonym rdf:datatype="&xsd;string">Unstable Behaviour</Synonym>
+        <DisplayName rdf:datatype="&xsd;string">repeller</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000103 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000103">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000085"/>
+        <Definition rdf:datatype="&xsd;string">A `limit behaviour` [TEDDY_0000085] with all behaviours starting sufficiently near to it will approach it as time goes to positive infinity.</Definition>
+        <rdfs:comment rdf:datatype="&xsd;string">DisplayName follows notation in urn:miriam:isbn:3817112823 (p.42).</rdfs:comment>
+        <Synonym rdf:datatype="&xsd;string">attracting behaviour</Synonym>
+        <DisplayName rdf:datatype="&xsd;string">stable behaviour</DisplayName>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0738204536 (p.128)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000104 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000104">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000086"/>
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000134"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <DisplayName>half-stable fixed point</DisplayName>
+        <Definition>An one-dimensional Fixed Point which is Half-Stable, i.e. the Fixed Point is Attracting in one direction and Unstable in the other direction.</Definition>
+        <Reference>urn:miriam:isbn:0738204536 (p.26)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000105 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000105">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000133"/>
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="&teddy;TEDDY_0000103"/>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <DisplayName rdf:datatype="&xsd;string">neutrally stable behaviour</DisplayName>
+        <Definition>A Temporal Behaviour which is neither Attracting nor Unstable.</Definition>
+        <Reference>urn:miriam:isbn:0738204536 (p.129)</Reference>
+        <Synonym>Non-Isolated Asymptotic Behaviour</Synonym>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000106 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000106">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000050"/>
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000105"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000050"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0012"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition>A Cycle which is surrounded by other Cycles.</Definition>
+        <Reference>urn:miriam:isbn:0738204536 (p.196)</Reference>
+        <Synonym>Neutrally Stable Cycle</Synonym>
+        <DisplayName>non-isolated cycle</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000107 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000107">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_obsolete"/>
+        <Definition>Obsolete: equivalent to TEDDY_0000083 'Temporal Behaviour'.</Definition>
+        <DisplayName>temporal behaviour ((obsolete))</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000108 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000108">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000132"/>
+        <Definition rdf:datatype="&xsd;string">A `behaviour` with respect to perturbations of the system or its environment.</Definition>
+        <DisplayName rdf:datatype="&xsd;string">perturbation behaviour</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000109 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000109">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000108"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0005"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000103"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition rdf:datatype="&xsd;string">A `perturbation behaviour` shown by a system with a single `attractor`. For all initial states sufficiently near to the attractor the system tend to this attractor.</Definition>
+        <DisplayName rdf:datatype="&xsd;string">stable behaviour</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000110 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000110">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000108"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0005"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000103"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0005"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition rdf:datatype="&xsd;string">A `perturbation behaviour` shown by a system with two different `attractor`s. Depending on the initial state the system tend to the one or the other attractor.</Definition>
+        <DisplayName rdf:datatype="&xsd;string">bistable behaviour</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000111 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000111">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000108"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0005"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">3</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0005"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000103"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition rdf:datatype="&xsd;string">A `perturbation behaviour` shown by a system with more than two different `attractor`s. Depending on the initial state the system tend to one of the attractors.</Definition>
+        <DisplayName rdf:datatype="&xsd;string">multistable behaviour</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000112 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000112">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000006"/>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0738204536 (p.276)</Reference>
+        <Reference rdf:datatype="&xsd;anyURI">http://www.scholarpedia.org/article/Quasiperiodic_oscillations</Reference>
+        <DisplayName rdf:datatype="&xsd;string">quasiperiodic oscillating</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000113 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000113">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000086"/>
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000103"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <DisplayName rdf:datatype="&xsd;string">stable fixed point</DisplayName>
+        <Synonym>Sink</Synonym>
+        <Synonym>Attractor</Synonym>
+        <Reference>urn:miriam:isbn:0738204536 (p.17)</Reference>
+        <Definition>A Fixed Point which is Stable.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000114 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000114">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000051"/>
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000097"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <DisplayName rdf:datatype="&xsd;string">stable limit cycle</DisplayName>
+        <Definition>A Limit Cycle which is Stable.</Definition>
+        <Reference>urn:miriam:isbn:0738204536 (p.196)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000115 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000115">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000086"/>
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000105"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <DisplayName rdf:datatype="&xsd;string">neutrally stable fixed point</DisplayName>
+        <Definition>A Fixed Point which is Neutrally Stable.</Definition>
+        <Reference>urn:miriam:isbn:0738204536 (p.129)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000116 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000116">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000002"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0009"/>
+                <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <DisplayName rdf:datatype="&xsd;string">magnitude</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000117 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000117">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000116"/>
+        <DisplayName rdf:datatype="&xsd;string">high magnitude</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000118 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000118">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000116"/>
+        <DisplayName rdf:datatype="&xsd;string">low magnitude</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000119 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000119">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000053"/>
+        <Synonym rdf:datatype="&xsd;string">Infinite-Period Bifurcation</Synonym>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0387983821 (p.59ff)</Reference>
+        <DisplayName rdf:datatype="&xsd;string">saddle-node homoclinic bifurcation</DisplayName>
+        <rdfs:comment rdf:datatype="&xsd;string">synonym 'Infinite-Period Bifurcation': urn:miriam:isbn:0738204536 (p.262)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000120 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000120">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0010"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000088"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition rdf:datatype="&xsd;string">A `hopf bifurcation` in which neigther a Limit Cycle is destroyed nor a Limit Cycle appears. On the bifurcation the fixed point is a `center`.</Definition>
+        <DisplayName rdf:datatype="&xsd;string">degenerate hopf bifurcation</DisplayName>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0738204536 (p.253)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000121 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000121">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000123"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0008"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000129"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0008"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0006"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000128"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition rdf:datatype="&xsd;string">A `zero-eigenvalue bifurcation` in which a `stable fixed point` and an `unstable fixed point` coalesce and exchange their stability.</Definition>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0738204536 (p.50f)</Reference>
+        <DisplayName rdf:datatype="&xsd;string">transcritical bifurcation</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000122 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000122">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000123"/>
+        <Definition rdf:datatype="&xsd;string">A `zero-eigenvalue bifurcation` in which the fixed point is surrounded by two symmetrical fixed points on one side of the bifurcation.</Definition>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0738204536 (p.55)</Reference>
+        <DisplayName rdf:datatype="&xsd;string">pitchfork bifurcation</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000123 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000123">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000069"/>
+        <Definition rdf:datatype="&xsd;string">A `local bifurcation` in which one of the eigenvalue of the linarisation around the fixed point is zero at the bifurcation.</Definition>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0738204536 (p.248)</Reference>
+        <DisplayName rdf:datatype="&xsd;string">zero-eigenvalue bifurcation</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000124 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000124">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0006"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000129"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition rdf:datatype="&xsd;string">A `pitchfork bifurcation` in which two symmetrical `unstable fixed points` collide with the stable fixed point and disappear.</Definition>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0738204536 (p.58f)</Reference>
+        <DisplayName rdf:datatype="&xsd;string">subcritical pitchfork bifurcation</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000125 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000125">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000122"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0008"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <Definition rdf:datatype="&xsd;string">A `pitchfork bifurcation` in which two symmetrical `stable fixed points` appear from the stable fixed point.</Definition>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0738204536 (p.55f)</Reference>
+        <DisplayName rdf:datatype="&xsd;string">supercritical pitchfork bifurcation</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000126 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000126">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000091"/>
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000097"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <DisplayName>stable spiral point</DisplayName>
+        <Definition>A Spiral Point which is Stable, i.e. for which the Jacobian Matrix has two negative complex conjugate eigenvalues. The Fixed Point is surrounded by behaviours spiralling downward the Fixed Point, corresponding to decaying oscillations.</Definition>
+        <Reference>urn:miriam:isbn:0738204536 (p.134,137)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000127 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000127">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000091"/>
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000096"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <Definition>A Spiral Point which is Unstable, i.e. for which the Jacobian Matrix has two positive complex conjugate eigenvalues. The Fixed Point is surrounded by behaviours spiralling upward the Fixed Point, corresponding to growing oscillations.</Definition>
+        <DisplayName>unstable spiral point</DisplayName>
+        <Reference>urn:miriam:isbn:0738204536 (p.134,137)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000128 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000128">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000051"/>
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000096"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <DisplayName rdf:datatype="&xsd;string">unstable limit cycle</DisplayName>
+        <Reference>urn:miriam:isbn:0738204536 (p.196)</Reference>
+        <Definition>A Limit Cycle which is Unstable.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000129 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000129">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000086"/>
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000096"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <DisplayName rdf:datatype="&xsd;string">unstable fixed point</DisplayName>
+        <Synonym>Repeller</Synonym>
+        <Reference>urn:miriam:isbn:0738204536 (p.17)</Reference>
+        <Synonym>Source</Synonym>
+        <Definition>A Fixed Point which is Unstable.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000130 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000130">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000002"/>
+        <DisplayName rdf:datatype="&xsd;string">inflexion point</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000131 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000131">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000002"/>
+        <DisplayName rdf:datatype="&xsd;string">amplitude</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000132 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000132">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000000"/>
+        <DisplayName>behaviour diversification</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000133 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000133">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000083"/>
+        <Definition rdf:datatype="&xsd;string">A `limit behaviour` [TEDDY_0000085] with all behaviours starting sufficiently near to it remain close to it.</Definition>
+        <DisplayName rdf:datatype="&xsd;string">liapunov stable behaviour</DisplayName>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0738204536 (p.129)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000134 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000134">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000085"/>
+        <DisplayName>half-stable behaviour</DisplayName>
+        <Reference>urn:miriam:isbn:0738204536 (p.26,196)</Reference>
+        <Definition>An one-dimensional `fixed point` which is stable in one direction and unstable in the other direction or a two-dimensional `limit cycle` which is attracting outside and unstable inside or vice versa.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000135 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000135">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000097"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="&teddy;TEDDY_0000136"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <Reference>urn:miriam:isbn:0738204536 (p.20)</Reference>
+        <Definition>A `asymptotically stable behaviour` to which only behaviours starting in a restricted neighbourhood will converge.</Definition>
+        <DisplayName>only locally stable behaviour</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000136 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000136">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000097"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf rdf:resource="&teddy;TEDDY_0000135"/>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <Definition rdf:datatype="&xsd;string">A `asymptotically stable behaviour` to which all other behaviours will converge independent of the initial distance.</Definition>
+        <DisplayName rdf:datatype="&xsd;string">globally stable behaviour</DisplayName>
+        <Reference>urn:miriam:isbn:0738204536 (p.20)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000137 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000137">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000087"/>
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000097"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <Definition rdf:datatype="&xsd;string">A Fixed Point Node which is Stable, i.e. for which the Jacobian Matrix has two negative eigenvalues.</Definition>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0738204536 (p.137)</Reference>
+        <DisplayName>stable node</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000138 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000138">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000087"/>
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000096"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <Definition rdf:datatype="&xsd;string">A Fixed Point Node which is Unstable, i.e. for which the Jacobian Matrix has two positive eigenvalues.</Definition>
+        <Reference rdf:datatype="&xsd;string">urn:miriam:isbn:0738204536 (p.137)</Reference>
+        <DisplayName>unstable node</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000139 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000139">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000090"/>
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000097"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <Reference>urn:miriam:isbn:0738204536 (p.137)</Reference>
+        <Definition>A Star which is Stable, i.e. for which the Jacobian Matrix has two identical negative eigenvalues. All other trajectories of the system are straight lines towards the Fixed Point.</Definition>
+        <DisplayName>stable star</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000140 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000140">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000090"/>
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000096"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <DisplayName>unstable star</DisplayName>
+        <Reference>urn:miriam:isbn:0738204536 (p.137)</Reference>
+        <Definition>A Star which is Unstable, i.e. for which the Jacobian Matrix has two identical positive eigenvalues. All other trajectories of the system are straight lines away the Fixed Point.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000141 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000141">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000093"/>
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000097"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <DisplayName>stable degenerated node</DisplayName>
+        <Reference>urn:miriam:isbn:0738204536 (p.137)</Reference>
+        <Definition>A Degenerated Node which is Stable, i.e. for which the Jacobian Matrix has two identical negative eigenvalues.</Definition>
+        <Synonym>Stable Improper Node</Synonym>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000142 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000142">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000093"/>
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000096"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <Reference>urn:miriam:isbn:0738204536 (p.137)</Reference>
+        <DisplayName>unstable degenerated node</DisplayName>
+        <Synonym>Unstable Improper Node</Synonym>
+        <Definition>A Degenerated Node which is Unstable, i.e. for which the Jacobian Matrix has two identical positive eigenvalues.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000143 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000143">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000083"/>
+        <DisplayName>non-periodic orbit</DisplayName>
+        <Reference>urn:miriam:isbn:9781402014031 (p.10)</Reference>
+        <Definition>A Temporal Behaviour which never repeats a state.</Definition>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000144 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000144">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000023"/>
+        <DisplayName>monotonicity</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000145 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000145">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000051"/>
+                    <rdf:Description rdf:about="&teddy;TEDDY_0000134"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <DisplayName>half-stable limit cycle</DisplayName>
+        <Definition>A Limit Cycle which is Half-Stable, i.e. the Limit Cycle is Attracting outside and Unstable inside or vice versa.</Definition>
+        <Reference>urn:miriam:isbn:0738204536 (p.196)</Reference>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_0000146 -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_0000146">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&teddy;TR_0013"/>
+                <owl:someValuesFrom rdf:resource="&teddy;TEDDY_0000085"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000083"/>
+        <Definition rdf:datatype="&xsd;string">A `temporal behaviour` [TEDDY_0000083] which converges to some `limit behaviour` [TEDDY_0000085].</Definition>
+        <DisplayName>asymptotic behaviour</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/teddy/TEDDY_obsolete -->
+
+    <owl:Class rdf:about="&teddy;TEDDY_obsolete">
+        <rdfs:subClassOf rdf:resource="&teddy;TEDDY_0000000"/>
+        <DisplayName>_obsolete</DisplayName>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.1.0.20069) http://owlapi.sourceforge.net -->
+

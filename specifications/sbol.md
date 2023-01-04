@@ -9,11 +9,11 @@ SBOL data is defined in a set of specification documents that describe the eleme
 
 The latest specifications are:
 
-* [The Synthetic Biology Open Language Data Model, version 2.2.0](http://identifiers.org/combine.specifications/sbol-version-2.2.0)
-* [The Synthetic Biology Open Language Data Model, version 2.1.0](http://identifiers.org/combine.specifications/sbol-version-2.1.0)
-* [The Synthetic Biology Open Language Data Model, version 2.0.1](http://identifiers.org/combine.specifications/sbol-version-2.0.1)
-* [The Synthetic Biology Open Language Data Model, version 2.0.0](http://identifiers.org/combine.specifications/sbol-version-2.0.0)
-* [The Synthetic Biology Open Language Data Model, version 1.1.0](http://identifiers.org/combine.specifications/sbol-version-1.1.0)
+* [The Synthetic Biology Open Language Data Model, version 2.2.0](https://identifiers.org/combine.specifications/sbol-version-2.2.0)
+* [The Synthetic Biology Open Language Data Model, version 2.1.0](https://identifiers.org/combine.specifications/sbol-version-2.1.0)
+* [The Synthetic Biology Open Language Data Model, version 2.0.1](https://identifiers.org/combine.specifications/sbol-version-2.0.1)
+* [The Synthetic Biology Open Language Data Model, version 2.0.0](https://identifiers.org/combine.specifications/sbol-version-2.0.0)
+* [The Synthetic Biology Open Language Data Model, version 1.1.0](https://identifiers.org/combine.specifications/sbol-version-1.1.0)
 
 ## Governance
 SBOL Data development is coordinated by an [editorial board and the chair](http://sbolstandard.org/gov/) elected by the community.
@@ -30,7 +30,7 @@ Many software tools support SBOL data, including [SBOL APIs](http://sbolstandard
 For information about SBOL Data, contact the [SBOL Editors](sbol-editors@googlegroups.com).
 
 ## How to cite SBOL Data
-Galdzicki M, Clancy KP, Oberortner E, Pocock M, Quinn JY, Rodriguez CA, Roehner N, Wilson ML, Adam L, Anderson JC, Bartley BA, Beal J, Chandran D, Chen J, Densmore D, Endy D, Grünberg R, Hallinan J, Hillson NJ, Johnson JD, Kuchinsky A, Lux M, Misirli G, Peccoud J, Plahar HA, Sirin E, Stan GB, Villalobos A, Wipat A, Gennari JH, Myers CJ, Sauro HM. The Synthetic Biology Open Language (SBOL) provides a community standard for communicating designs in synthetic biology. Nature Biotechnology (2014), 32: 545-550. http://identifiers.org/pubmed/24911500
+Galdzicki M, Clancy KP, Oberortner E, Pocock M, Quinn JY, Rodriguez CA, Roehner N, Wilson ML, Adam L, Anderson JC, Bartley BA, Beal J, Chandran D, Chen J, Densmore D, Endy D, Grünberg R, Hallinan J, Hillson NJ, Johnson JD, Kuchinsky A, Lux M, Misirli G, Peccoud J, Plahar HA, Sirin E, Stan GB, Villalobos A, Wipat A, Gennari JH, Myers CJ, Sauro HM. The Synthetic Biology Open Language (SBOL) provides a community standard for communicating designs in synthetic biology. Nature Biotechnology (2014), 32: 545-550. https://identifiers.org/pubmed/24911500
 
 Roehner N, Beal J, Clancy K, Bartley B, Misirli G, Grünberg R, Oberortner E, Pocock M, Bissell M, Madsen C, Nguyen T. Sharing structure and function in biological design with SBOL 2.0. ACS synthetic biology. 2016 May 4;5(6):498-506. http://pubs.acs.org/doi/abs/10.1021/acssynbio.5b00215
 
