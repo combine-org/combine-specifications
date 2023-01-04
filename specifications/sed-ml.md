@@ -10,9 +10,9 @@ The latest specification is [SED-ML Level 1 Version 4](https://identifiers.org/c
  
 All specifications are
 * [SED-ML Level 1 Version 4](https://identifiers.org/combine.specifications:sed-ml.level-1.version-4)
-* [SED-ML Level 1 Version 3](https://identifiers.org/combine.specificationssed-ml.level-1.version-3)
+* [SED-ML Level 1 Version 3](https://identifiers.org/combine.specifications:sed-ml.level-1.version-3)
 * [SED-ML Level 1 Version 2](https://identifiers.org/combine.specifications:sed-ml.level-1.version-2)
-* [SED-ML Level 1 Version 1](https://identifiers.org/combine.specificationssed-ml.level-1.version-1)
+* [SED-ML Level 1 Version 1](https://identifiers.org/combine.specifications:sed-ml.level-1.version-1)
 
 ## Governance
 SED-ML development is coordinated by an [editorial board](https://sed-ml.org/about.html) elected by the community.
