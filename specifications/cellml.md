@@ -9,9 +9,9 @@ CellML is defined in a set of specification documents that describe the elements
 
 The specifications are:
 
-* [CellML 2.0](cellml.2.0.md): https://identifiers.org/combine.specifications/cellml.2.0
-* [CellML 1.1](cellml.1.1.md): https://identifiers.org/combine.specifications/cellml.1.1
-* [CellML 1.0](cellml.1.0.md): https://identifiers.org/combine.specifications/cellml.1.0
+* [CellML 2.0](cellml.2.0.md): https://identifiers.org/combine.specifications:cellml.2.0
+* [CellML 1.1](cellml.1.1.md): https://identifiers.org/combine.specifications:cellml.1.1
+* [CellML 1.0](cellml.1.0.md): https://identifiers.org/combine.specifications:cellml.1.0
 
 ## Governance
 

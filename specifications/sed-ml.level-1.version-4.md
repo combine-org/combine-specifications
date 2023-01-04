@@ -8,7 +8,7 @@ The specification can be found at:
 * [sed-ml.level-1.version-4.pdf](./files/sed-ml.level-1.version-4.pdf)
 * [https://github.com/SED-ML/sed-ml/releases/download/L1V4/sed-ml-L1V4.pdf](https://github.com/SED-ML/sed-ml/releases/download/L1V4/sed-ml-L1V4.pdf)
 
-Identifier for this specification is: https://identifiers.org/combine.specifications/sed-ml.level-1.version-4
+Identifier for this specification is: https://identifiers.org/combine.specifications:sed-ml.level-1.version-4
 
 To cite this document use:
 

@@ -5,7 +5,7 @@ The specification can be found at:
 * [sbml.level-3.version-1.qual.version-1.release-1.pdf](./files/sbml.level-3.version-1.qual.version-1.release-1.pdf)
 * https://sbml.org/specifications/sbml-level-3/version-1/qual/sbml-qual-version-1-release-1.pdf
 
-Identifier for this specification is: https://identifiers.org/combine.specifications/sbml.level-3.version-1.qual.version-1.release-1
+Identifier for this specification is: https://identifiers.org/combine.specifications:sbml.level-3.version-1.qual.version-1.release-1
 
 To cite this document use:
 

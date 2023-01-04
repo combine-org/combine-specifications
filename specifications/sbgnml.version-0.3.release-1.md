@@ -1,5 +1,5 @@
 # SBGN Markup Language ('sbgnml') Version 0.3 Release 1
-Identifier for this specification is: [https://identifiers.org/combine.specifications/specifications/sbgnml.version-0.3.release-1](https://identifiers.org/combine.specifications/specifications/sbgnml.version-0.3.release-1)
+Identifier for this specification is: [https://identifiers.org/combine.specifications:specifications/sbgnml.version-0.3.release-1](https://identifiers.org/combine.specifications:specifications/sbgnml.version-0.3.release-1)
 
 Release 1 of the Systems Biology Graphical Notation Markup Language (SBGNML) was published on April 1st, 2020. 
 
@@ -9,4 +9,4 @@ The specification can be found at:
 
 To cite this document use:
 
-Frank T. Bergmann, Tobias Czauderna, Ugur Dogrusoz, Adrien Rougny, Andreas Dräger, Vasundra Touré, Alexander Mazein, Michael L. Blinov and Augustin Luna. SBGN Markup Language ('sbgnml'), Version 0.3 Release 1. Available from COMBINE [https://identifiers.org/combine.specifications/specifications/sbgnml.version-0.3.release-1](https://identifiers.org/combine.specifications/specifications/sbgnml.version-0.3.release-1) (2020)
+Frank T. Bergmann, Tobias Czauderna, Ugur Dogrusoz, Adrien Rougny, Andreas Dräger, Vasundra Touré, Alexander Mazein, Michael L. Blinov and Augustin Luna. SBGN Markup Language ('sbgnml'), Version 0.3 Release 1. Available from COMBINE [https://identifiers.org/combine.specifications:specifications/sbgnml.version-0.3.release-1](https://identifiers.org/combine.specifications:specifications/sbgnml.version-0.3.release-1) (2020)

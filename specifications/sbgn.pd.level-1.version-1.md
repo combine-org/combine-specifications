@@ -1,5 +1,5 @@
 # SBGN PD Level 1 Version 1
-Identifier for this specification is: https://identifiers.org/combine.specifications/sbgn.pd.level-1.version-1
+Identifier for this specification is: https://identifiers.org/combine.specifications:sbgn.pd.level-1.version-1
 
 Version 1.3 of Level 1 of the SBGN Process Description Language was published on released on 14 February 2011.
 
@@ -11,4 +11,4 @@ The specification can be found at:
 
 To cite this document use:
 
-Stuart Moodie, Nicolas Le Novère, Emek Demir, Huaiyu Mi, Alice Villéger. Systems Biology Graphical Notation: Process Description language Level 1 Version 1.3. Available from COMBINE https://identifiers.org/combine.specifications/sbgn.pd.level-1.version-1.3 (2011)
+Stuart Moodie, Nicolas Le Novère, Emek Demir, Huaiyu Mi, Alice Villéger. Systems Biology Graphical Notation: Process Description language Level 1 Version 1.3. Available from COMBINE https://identifiers.org/combine.specifications:sbgn.pd.level-1.version-1.3 (2011)

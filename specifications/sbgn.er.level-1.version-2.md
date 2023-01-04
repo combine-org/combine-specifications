@@ -1,5 +1,5 @@
 # SBGN ER Level 1 Version 2
-Identifier for this specification is: https://identifiers.org/combine.specifications/sbgn.er.level-1.version-2
+Identifier for this specification is: https://identifiers.org/combine.specifications:sbgn.er.level-1.version-2
 
 Version 2 of Level 1 of the SBGN Entity Relationship Language was published on 08 August 2015.
 
@@ -12,4 +12,4 @@ The specification can be found at:
 
 To cite this document use:
 
-Anatoly Sorokin, Nicolas Le Novère, Augustin Luna, Tobias Czauderna, Emek Demir, Robin Haw, Huaiyu Mi, Stuart Moodie, Falk Schreiber, Alice Villéger. Systems Biology Graphical Notation: Entity Relationship language Level 1, Version 2. Available from COMBINE https://identifiers.org/combine.specifications/sbgn.er.level-1.version-2 (2015)
+Anatoly Sorokin, Nicolas Le Novère, Augustin Luna, Tobias Czauderna, Emek Demir, Robin Haw, Huaiyu Mi, Stuart Moodie, Falk Schreiber, Alice Villéger. Systems Biology Graphical Notation: Entity Relationship language Level 1, Version 2. Available from COMBINE https://identifiers.org/combine.specifications:sbgn.er.level-1.version-2 (2015)

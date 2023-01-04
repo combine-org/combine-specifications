@@ -3,4 +3,4 @@ The SuperHero Description Markup Language (SHDML) is a format allowing to descri
 
 The last specification of SHDML is:
 
-* [SHDML Level 1 Version 1](https://identifiers.org/combine.specifications/shdml.level-1.version-1)
+* [SHDML Level 1 Version 1](https://identifiers.org/combine.specifications:shdml.level-1.version-1)

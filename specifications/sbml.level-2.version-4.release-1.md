@@ -7,7 +7,7 @@ The specification can be found at:
 * https://sbml.org/specifications/sbml-level-2/version-4/release-1/sbml-level-2-version-4-rel-1.pdf
 * http://dx.doi.org/10.1038/npre.2008.2715.1
 
-Identifier for this specification is: https://identifiers.org/combine.specifications/sbml.level-2.version-4.release-1
+Identifier for this specification is: https://identifiers.org/combine.specifications:sbml.level-2.version-4.release-1
 
 To cite this document use:
 

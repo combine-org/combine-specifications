@@ -7,7 +7,7 @@ The specification can be found at:
 * https://sbml.org/specifications/sbml-level-3/version-1/core/sbml-level-3-version-1-core.pdf
 * http://dx.doi.org/10.1038/npre.2010.4959.1
 
-Identifier for this specification is: https://identifiers.org/combine.specifications/sbml.level-3.version-1.core.release-1
+Identifier for this specification is: https://identifiers.org/combine.specifications:sbml.level-3.version-1.core.release-1
 
 To cite this document use:
 

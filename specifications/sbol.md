@@ -9,11 +9,11 @@ SBOL data is defined in a set of specification documents that describe the eleme
 
 The latest specifications are:
 
-* [The Synthetic Biology Open Language Data Model, version 2.2.0](https://identifiers.org/combine.specifications/sbol-version-2.2.0)
-* [The Synthetic Biology Open Language Data Model, version 2.1.0](https://identifiers.org/combine.specifications/sbol-version-2.1.0)
-* [The Synthetic Biology Open Language Data Model, version 2.0.1](https://identifiers.org/combine.specifications/sbol-version-2.0.1)
-* [The Synthetic Biology Open Language Data Model, version 2.0.0](https://identifiers.org/combine.specifications/sbol-version-2.0.0)
-* [The Synthetic Biology Open Language Data Model, version 1.1.0](https://identifiers.org/combine.specifications/sbol-version-1.1.0)
+* [The Synthetic Biology Open Language Data Model, version 2.2.0](https://identifiers.org/combine.specifications:sbol-version-2.2.0)
+* [The Synthetic Biology Open Language Data Model, version 2.1.0](https://identifiers.org/combine.specifications:sbol-version-2.1.0)
+* [The Synthetic Biology Open Language Data Model, version 2.0.1](https://identifiers.org/combine.specifications:sbol-version-2.0.1)
+* [The Synthetic Biology Open Language Data Model, version 2.0.0](https://identifiers.org/combine.specifications:sbol-version-2.0.0)
+* [The Synthetic Biology Open Language Data Model, version 1.1.0](https://identifiers.org/combine.specifications:sbol-version-1.1.0)
 
 ## Governance
 SBOL Data development is coordinated by an [editorial board and the chair](http://sbolstandard.org/gov/) elected by the community.

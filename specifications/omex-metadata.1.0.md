@@ -1,11 +1,11 @@
 # OMEX metadata specification version 1.0
 ![OMEX metadata logo](./files/omex-metadata.png)
 
-Identifier for this specification is: https://identifiers.org/combine.specifications/omex-metadata.1.0
+Identifier for this specification is: https://identifiers.org/combine.specifications:omex-metadata.1.0
 
 The specification can be found at: [omex-metadata.1.0.pdf](./files/omex-metadata.1.0.pdf)
 
-For the description of the OMEX metadata see: https://identifiers.org/combine.specifications/omex-metadata
+For the description of the OMEX metadata see: https://identifiers.org/combine.specifications:omex-metadata
 
 ## Citation
 

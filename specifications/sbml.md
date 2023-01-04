@@ -8,7 +8,7 @@ SBML is defined in a set of specification documents that describe the elements o
 
 The latest specifications are:
 
-* [SBML Level 3 Version 2 Core Release 2](https://identifiers.org/combine.specifications/sbml.level-3.version-2.core)
+* [SBML Level 3 Version 2 Core Release 2](https://identifiers.org/combine.specifications:sbml.level-3.version-2.core)
 * SBML Level 3 Hierarchical Model Composition Package Version 1 Release 3
 * SBML Level 3 Distributions Package Version 1 Release 1
 * SBML Level 3 Flux Balance Constraints Package Version 2 Release 1

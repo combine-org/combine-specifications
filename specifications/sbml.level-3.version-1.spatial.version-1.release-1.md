@@ -6,9 +6,9 @@ The specification can be found at:
 * [sbml.level-3.version-1.spatial.version-1.release-1.pdf](./files/sbml.level-3.version-1.spatial.version-1.release-1.pdf)
 * https://github.com/sbmlteam/sbml-specifications/blob/develop/sbml-level-3/version-1/spatial/specification/sbml.level-3.version-1.spatial.version-1.release-1.pdf
 
-Identifier for this specification is: https://identifiers.org/combine.specifications/sbml.level-3.version-1.spatial.version-1.release-1
+Identifier for this specification is: https://identifiers.org/combine.specifications:sbml.level-3.version-1.spatial.version-1.release-1
 
 To cite this document use:
 
-Schaff, J. C., Lakshminarayana, A., Murphy, R. F. Bergmann, F. T., Funahashi, A., Sullivan, D. P., and Smith, L. P. (2022). The Spatial Package for SBML Level 3. Retrieved from from COMBINE, https://identifiers.org/combine.specifications/sbml.level-3.version-1.spatial.version-1.release-1
+Schaff, J. C., Lakshminarayana, A., Murphy, R. F. Bergmann, F. T., Funahashi, A., Sullivan, D. P., and Smith, L. P. (2022). The Spatial Package for SBML Level 3. Retrieved from from COMBINE, https://identifiers.org/combine.specifications:sbml.level-3.version-1.spatial.version-1.release-1
 
