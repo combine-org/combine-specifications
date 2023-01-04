@@ -8,7 +8,7 @@ The specification can be found at:
 
 Identifier for this specification is: https://identifiers.org/combine.specifications/sed-ml.level-1.version-2
 
-To cite this document, please use:
+To cite this document use:
 
 Bergmann FT, Cooper J, Le Novère N, Nickerson D, Waltemath D. Simulation Experiment Description Markup Language (SED-ML) Level 1 Version 2. J Integr Bioinform. 2015 Sep 4;12(2):262. doi: [10.2390/biecoll-jib-2015-262](https://doi.org/10.2390/biecoll-jib-2015-262). PMID: [26528560](http://identifier.org/pubmed/26528560).
 

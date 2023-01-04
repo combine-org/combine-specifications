@@ -22,13 +22,13 @@ The latest specifications are:
 * SBML Level 1 Version 2
 
 ## Governance
-SBML development is coordinated by an [editorial board](http://sbml.org/SBML.org:About#The_SBML_Editors_and_the_Chair) elected by the community and a [team of developers](http://sbml.org/SBML.org:About#The_SBML_Team).
+SBML development is coordinated by an [editorial board](https://sbml.org/SBML.org:About#The_SBML_Editors_and_the_Chair) elected by the community and a [team of developers](https://sbml.org/SBML.org:About#The_SBML_Team).
 
 ## Communication
 SBML development is discussed on the mailing list [sbml-discuss@googlemail.com](https://groups.google.com/g/sbml-discuss).
 
 ## Software support
-Many [data resources and software](http://sbml.org/SBML_Software_Guide) support SBML. This includes [APIs and converters](http://sbml.org/Downloads).
+Many [data resources and software](https://sbml.org/SBML_Software_Guide) support SBML. This includes [APIs and converters](https://sbml.org/Downloads).
 
 ## Contact
 For information about SBML itself, contact [sbml-discuss@googlemail.com](https://groups.google.com/g/sbml-discuss). For information about SBML development and governance, contact [sbml-editors@caltech.edu](mailto:sbml-editors@caltech.edu)

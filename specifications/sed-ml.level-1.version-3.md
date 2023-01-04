@@ -10,7 +10,7 @@ The specification can be found at:
 
 * Identifier for this specification is: https://identifiers.org/combine.specifications/sed-ml.level-1.version-3
 
-To cite this document, please use:
+To cite this document use:
 
 Bergmann FT, Cooper J, König M, Moraru I, Nickerson D, Le Novère N, Olivier BG, Sahle S, Smith L, Waltemath D. Simulation Experiment Description Markup Language (SED-ML) Level 1 Version 3 (L1V3). J Integr Bioinform. 2018 Mar 19;15(1):20170086. doi: [10.1515/jib-2017-0086](https://doi.org/10.1515/jib-2017-0086). PMID: [29550789](http://identifier.org/pubmed/29550789); PMCID: PMC6167040.
 

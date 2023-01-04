@@ -7,7 +7,7 @@ The Version 1 of the Open Modeling EXchange format (OMEX) specification was publ
 
 Identifier for this specification is: https://identifiers.org/combine.specifications/omex.version-1
 
-To cite this document, please use:
+To cite this document use:
 
 Frank T. Bergmann, Nicolas Rodriguez, Nicolas Le Novère. COMBINE archive specification. Available from COMBINE https://identifiers.org/combine.specifications/omex.version-1 (2014)
 
