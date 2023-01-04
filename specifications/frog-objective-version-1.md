@@ -9,7 +9,7 @@ For more information see: https://www.ebi.ac.uk/biomodels/curation/fbc. The refe
 
 The FROG analysis Version 1 consists of
 
-* http://identifiers.org/combine.specifications:frog-metadata-version-1
+* https://identifiers.org/combine.specifications:frog-metadata-version-1
 * https://identifiers.org/combine.specifications:frog-objective-version-1
 * https://identifiers.org/combine.specifications:frog-fva-version-1
 * https://identifiers.org/combine.specifications:frog-genedeletion-version-1

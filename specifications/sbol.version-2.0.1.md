@@ -1,5 +1,5 @@
 # SBOL Data version 2.0.1
-Identifier for this specification is: http://identifiers.org/combine.specifications/sbol.version-2.0.1
+Identifier for this specification is: https://identifiers.org/combine.specifications/sbol.version-2.0.1
 
 Version 2.0.1 of SBOL was published on June 1, 2015.
 

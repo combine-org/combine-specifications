@@ -8,8 +8,8 @@ The specification can be found at:
 * [sed-ml.level-1.version-4.pdf](./files/sed-ml.level-1.version-4.pdf)
 * https://github.com/SED-ML/sed-ml/releases/download/L1V3/sed-ml-L1V3.pdf
 
-Identifier for this specification is: http://identifiers.org/combine.specifications/sed-ml.level-1.version-4
+Identifier for this specification is: https://identifiers.org/combine.specifications/sed-ml.level-1.version-4
 
 To cite this document, please use:
 
-Matthias König, David Nickerson, Brett Olivier, Lucian Smith, Dagmar Waltemath, Frank T. Bergmann. Simulation Experiment Description Markup Language (SED-ML): Level 1 Version 3. Available from COMBINE <http://identifiers.org/combine.specifications/sed-ml.level-1.version-3> (2017)
+Matthias König, David Nickerson, Brett Olivier, Lucian Smith, Dagmar Waltemath, Frank T. Bergmann. Simulation Experiment Description Markup Language (SED-ML): Level 1 Version 3. Available from COMBINE <https://identifiers.org/combine.specifications/sed-ml.level-1.version-3> (2017)

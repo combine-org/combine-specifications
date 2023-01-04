@@ -6,13 +6,13 @@ The [Simulation Experiment Description Markup Language (SED-ML)](https://sed-ml.
 ## Normative definitions
 SED-ML is defined in a specification document that describes the elements of the language, its syntax, and provides validation rules.
 
-The latest specification is [SED-ML Level 1 Version 4](http://identifiers.org/combine.specifications/sed-ml.level-1.version-4).
+The latest specification is [SED-ML Level 1 Version 4](https://identifiers.org/combine.specifications/sed-ml.level-1.version-4).
  
 All specifications are
-* [SED-ML Level 1 Version 4](http://identifiers.org/combine.specifications/sed-ml.level-1.version-4)
-* [SED-ML Level 1 Version 3](http://identifiers.org/combine.specificationssed-ml.level-1.version-3)
-* [SED-ML Level 1 Version 2](http://identifiers.org/combine.specifications/sed-ml.level-1.version-2)
-* [SED-ML Level 1 Version 1](http://identifiers.org/combine.specificationssed-ml.level-1.version-1)
+* [SED-ML Level 1 Version 4](https://identifiers.org/combine.specifications/sed-ml.level-1.version-4)
+* [SED-ML Level 1 Version 3](https://identifiers.org/combine.specificationssed-ml.level-1.version-3)
+* [SED-ML Level 1 Version 2](https://identifiers.org/combine.specifications/sed-ml.level-1.version-2)
+* [SED-ML Level 1 Version 1](https://identifiers.org/combine.specificationssed-ml.level-1.version-1)
 
 ## Governance
 SED-ML development is coordinated by an [editorial board](https://sed-ml.org/about.html) elected by the community.
@@ -27,9 +27,9 @@ Several [software tools](http://sed-ml.org/showcase.html) support SED-ML. Implem
 For information about SED-ML itself, contact [sed-ml-discuss@googlegroups.com](https://groups.google.com/d/forum/sed-ml-discuss). For information about SED-ML development and governance, contact [sed-ml-editors@googlegroups.com](mailto:sed-ml-editors@googlegroups.com). More information can be found on the SED-ML website: [https://sed-ml.org](https://sed-ml.org)
 
 ## How to cite SED-ML
-Waltemath D., Adams R., Bergmann F.T., Hucka M., Kolpakov F., Miller A.K., Moraru I.I., Nickerson D., Sahle S., Snoep J.L., Le Novère N. Reproducible computational biology experiments with SED-ML -- The Simulation Experiment Description Markup Language. BMC Systems Biology (2011), 5:198. http://identifiers.org/pubmed/22172142
+Waltemath D., Adams R., Bergmann F.T., Hucka M., Kolpakov F., Miller A.K., Moraru I.I., Nickerson D., Sahle S., Snoep J.L., Le Novère N. Reproducible computational biology experiments with SED-ML -- The Simulation Experiment Description Markup Language. BMC Systems Biology (2011), 5:198. https://identifiers.org/pubmed/22172142
 
-Smith LP, Bergmann FT, Garny A, Helikar T, Karr J, Nickerson D, Sauro H, Waltemath D, König M. The simulation experiment description markup language (SED-ML): language specification for level 1 version 4. J Integr Bioinform. 2021 Oct 5;18(3):20210021. doi: [10.1515/jib-2021-0021](https://doi.org/10.1515/jib-2021-0021). PMID: http://identifiers.org/pubmed/35330701; PMCID: PMC8560344.
+Smith LP, Bergmann FT, Garny A, Helikar T, Karr J, Nickerson D, Sauro H, Waltemath D, König M. The simulation experiment description markup language (SED-ML): language specification for level 1 version 4. J Integr Bioinform. 2021 Oct 5;18(3):20210021. doi: [10.1515/jib-2021-0021](https://doi.org/10.1515/jib-2021-0021). PMID: https://identifiers.org/pubmed/35330701; PMCID: PMC8560344.
 
 
 ## History

@@ -1,5 +1,5 @@
 # OMEX Metadata Specification
-Identifier for this specification is: http://identifiers.org/combine.specifications/omex-metadata
+Identifier for this specification is: https://identifiers.org/combine.specifications/omex-metadata
 
 ![OMEX metadata logo](./files/omex-metadata.png) 
 
@@ -9,8 +9,8 @@ A standardized approach to annotating computational biomedical models and their 
 OMEX metadata is defined in a set of specification documents that describe the elements of the language and its syntax.
 
 The latest specifications are available here:
-* [OMEX metadata 1.2](http://identifiers.org/combine.specifications/omex-metadata-1.2)
-* [OMEX metadata 1.0](http://identifiers.org/combine.specifications/omex-metadata-1.0)
+* [OMEX metadata 1.2](https://identifiers.org/combine.specifications/omex-metadata-1.2)
+* [OMEX metadata 1.0](https://identifiers.org/combine.specifications/omex-metadata-1.0)
 
 ## Communication
 OMEX Metadata development is discussed on the combine-annot mailing list at https://groups.google.com/forum/#!forum/combine-annot.

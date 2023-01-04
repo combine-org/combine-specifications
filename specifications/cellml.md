@@ -9,9 +9,9 @@ CellML is defined in a set of specification documents that describe the elements
 
 The specifications are:
 
-* [CellML 2.0](cellml.2.0.md): http://identifiers.org/combine.specifications/cellml.2.0
-* [CellML 1.1](cellml.1.1.md): http://identifiers.org/combine.specifications/cellml.1.1
-* [CellML 1.0](cellml.1.0.md): http://identifiers.org/combine.specifications/cellml.1.0
+* [CellML 2.0](cellml.2.0.md): https://identifiers.org/combine.specifications/cellml.2.0
+* [CellML 1.1](cellml.1.1.md): https://identifiers.org/combine.specifications/cellml.1.1
+* [CellML 1.0](cellml.1.0.md): https://identifiers.org/combine.specifications/cellml.1.0
 
 ## Governance
 
@@ -31,7 +31,7 @@ For information about CellML itself, contact [cellml-discussion@cellml.org](http
 
 ## How to cite CellML
 
-Cuellar, A.A., Lloyd, C.M., Nielsen, P.F., Bullivant, D.P., Nickerson, D.P. and Hunter, P.J. An overview of CellML 1.1, a biological model description language. SIMULATION (2003), 79(12):740-747. http://identifiers.org/doi/10.1177/0037549703040939
+Cuellar, A.A., Lloyd, C.M., Nielsen, P.F., Bullivant, D.P., Nickerson, D.P. and Hunter, P.J. An overview of CellML 1.1, a biological model description language. SIMULATION (2003), 79(12):740-747. https://identifiers.org/doi/10.1177/0037549703040939
 
 ## History
 
