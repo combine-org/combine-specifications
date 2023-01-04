@@ -3,7 +3,7 @@ Version 4 Release 1 of Level 2 of SBML was published on 22 September 2008.
 
 The specification can be found at:
 
-* [sbml.level-2.version-4.release-1.pdf](./files/sbml.level-2.version-4.release-1.pdf)
+* [sbml.level-2.version-4.release-1.pdf](https://raw.githubusercontent.com/combine-org/combine-specifications/main/specifications/files/sbml.level-2.version-4.release-1.pdf)
 * https://sbml.org/specifications/sbml-level-2/version-4/release-1/sbml-level-2-version-4-rel-1.pdf
 * http://dx.doi.org/10.1038/npre.2008.2715.1
 

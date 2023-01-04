@@ -5,4 +5,4 @@ Identifier for this specification is: https://identifiers.org/shdml.level-1.vers
 
 The specification can be found at:
 
-* [shdml.level-1.version-1.pdf](./files/shdml.level-1.version-1.pdf)
+* [shdml.level-1.version-1.pdf](https://raw.githubusercontent.com/combine-org/combine-specifications/main/specifications/files/shdml.level-1.version-1.pdf)

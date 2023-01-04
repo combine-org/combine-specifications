@@ -5,7 +5,7 @@ Version 1.2 of Level 1 of the SBGN Activity Flow Language was published on relea
 
 The specification can be found at:
 
-* [sbgn.af.level-1.version-1.2.pdf](./files/sbgn.af.level-1.version-1.2.pdf)
+* [sbgn.af.level-1.version-1.2.pdf](https://raw.githubusercontent.com/combine-org/combine-specifications/main/specifications/files/sbgn.af.level-1.version-1.2.pdf)
 * http://biecoll.ub.uni-bielefeld.de/volltexte/2015/5369/
 * http://svn.code.sf.net/p/sbgn/code/ActivityFlow/tags/L1R1.2/sbgn_AF-level1.pdf
 

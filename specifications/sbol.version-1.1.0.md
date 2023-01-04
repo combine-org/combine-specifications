@@ -5,7 +5,7 @@ Version 1.1.0 of SBOL was published on March 12, 2012
 
 The specification can be found at:
 
-* [sbol.version-1.1.0.pdf](./files/sbol.version-1.1.0.pdf)
+* [sbol.version-1.1.0.pdf](https://raw.githubusercontent.com/combine-org/combine-specifications/main/specifications/files/sbol.version-1.1.0.pdf)
 * http://sbolstandard.org/downloads/specification/
 
 * To cite this document use:

@@ -5,7 +5,7 @@ Version 1.3 of Level 1 of the SBGN Process Description Language was published on
 
 The specification can be found at:
 
-* [sbgn.pd.level-1.version-1.3.pdf](./files/sbgn.pd.level-1.version-1.3.pdf)
+* [sbgn.pd.level-1.version-1.3.pdf](https://raw.githubusercontent.com/combine-org/combine-specifications/main/specifications/files/sbgn.pd.level-1.version-1.3.pdf)
 * http://dx.doi.org/10.1038/npre.2011.3721.4
 * https://sourceforge.net/p/sbgn/code/HEAD/tree/ProcessDiagram/tags/L1V1.3Full/sbgn_PD-level1.pdf
 

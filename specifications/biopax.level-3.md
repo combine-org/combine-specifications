@@ -5,5 +5,5 @@ Identifier for this specification is: [https://identifiers.org/combine.specifica
 
 The specification can be found at: 
 
-* [biopax.level-3.pdf](./files/biopax.level-3.pdf)
+* [biopax.level-3.pdf](https://raw.githubusercontent.com/combine-org/combine-specifications/main/specifications/files/biopax.level-3.pdf)
 * http://biopax.org/release/biopax-level3-documentation.pdf

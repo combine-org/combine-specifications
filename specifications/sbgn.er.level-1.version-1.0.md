@@ -5,7 +5,7 @@ Version 1.0 of Level 1 of the SBGN Entity Relationship Language was published on
 
 The specification can be found at:
 
-* [sbgn.er.level-1.version-1.0.pdf](./files/sbgn.er.level-1.version-1.0.pdf)
+* [sbgn.er.level-1.version-1.0.pdf](https://raw.githubusercontent.com/combine-org/combine-specifications/main/specifications/files/sbgn.er.level-1.version-1.0.pdf)
 * http://dx.doi.org/10.1038/npre.2009.3719.1
 * http://sbgn.svn.sourceforge.net/viewvc/sbgn/EntityRelationship/tags/Level1-final/sbgn_ER-level1.pdf
 

@@ -3,7 +3,7 @@ Release 1 of the Spatial ('spatial') package for SBML Level 3 was published on 2
 
 The specification can be found at:
 
-* [sbml.level-3.version-1.spatial.version-1.release-1.pdf](./files/sbml.level-3.version-1.spatial.version-1.release-1.pdf)
+* [sbml.level-3.version-1.spatial.version-1.release-1.pdf](https://raw.githubusercontent.com/combine-org/combine-specifications/main/specifications/files/sbml.level-3.version-1.spatial.version-1.release-1.pdf)
 * https://github.com/sbmlteam/sbml-specifications/blob/develop/sbml-level-3/version-1/spatial/specification/sbml.level-3.version-1.spatial.version-1.release-1.pdf
 
 Identifier for this specification is: https://identifiers.org/combine.specifications:sbml.level-3.version-1.spatial.version-1.release-1

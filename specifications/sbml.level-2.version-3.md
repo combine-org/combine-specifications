@@ -3,7 +3,7 @@ Version 3 Release 2 of Level 2 of SBML was published on 26 September 2007.
 
 The specification can be found at:
 
-* [sbml.level-2.version-3.release-2.pdf](./files/sbml.level-2.version-3.release-2.pdf)
+* [sbml.level-2.version-3.release-2.pdf](https://raw.githubusercontent.com/combine-org/combine-specifications/main/specifications/files/sbml.level-2.version-3.release-2.pdf)
 * https://sbml.org/specifications/sbml-level-2/version-3/release-2/sbml-level-2-version-3-rel-2.pdf
 
 Identifier for this specification is: https://identifiers.org/combine.specifications:sbml.level-2.version-3.release-2

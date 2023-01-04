@@ -5,7 +5,7 @@ Release 1 of the Systems Biology Graphical Notation Markup Language (SBGNML) was
 
 The specification can be found at:
 
-* [sbgnml.version-0.3.release-1.pdf](./files/sbgnml.version-0.3.release-1.pdf)
+* [sbgnml.version-0.3.release-1.pdf](https://raw.githubusercontent.com/combine-org/combine-specifications/main/specifications/files/sbgnml.version-0.3.release-1.pdf)
 
 To cite this document use:
 
