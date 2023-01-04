@@ -9,4 +9,4 @@ The ontology can be downloaded from:
 
 This is the first release of TEDDY.
 
-Identifier for this specification is: https://identifiers.org/combine.specifications/teddy.rel-2007-06-04
+Identifier for this specification is: https://identifiers.org/combine.specifications:teddy.rel-2007-06-04

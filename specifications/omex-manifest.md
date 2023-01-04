@@ -1,5 +1,5 @@
 # COMBINE archive manifest
-Identifier for this specification is: https://identifiers.org/combine.specifications/omex-manifest
+Identifier for this specification is: https://identifiers.org/combine.specifications:omex-manifest
 
 The COMBINE archive manifest, also known as "Open Modeling EXchange format (OMEX) manifest" is one of the mandatory files contained in a COMBINE archive. It lists all the files present in the archive, their relative location and their type.
 

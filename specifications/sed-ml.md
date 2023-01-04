@@ -6,12 +6,12 @@ The [Simulation Experiment Description Markup Language (SED-ML)](https://sed-ml.
 ## Normative definitions
 SED-ML is defined in a specification document that describes the elements of the language, its syntax, and provides validation rules.
 
-The latest specification is [SED-ML Level 1 Version 4](https://identifiers.org/combine.specifications/sed-ml.level-1.version-4).
+The latest specification is [SED-ML Level 1 Version 4](https://identifiers.org/combine.specifications:sed-ml.level-1.version-4).
  
 All specifications are
-* [SED-ML Level 1 Version 4](https://identifiers.org/combine.specifications/sed-ml.level-1.version-4)
+* [SED-ML Level 1 Version 4](https://identifiers.org/combine.specifications:sed-ml.level-1.version-4)
 * [SED-ML Level 1 Version 3](https://identifiers.org/combine.specificationssed-ml.level-1.version-3)
-* [SED-ML Level 1 Version 2](https://identifiers.org/combine.specifications/sed-ml.level-1.version-2)
+* [SED-ML Level 1 Version 2](https://identifiers.org/combine.specifications:sed-ml.level-1.version-2)
 * [SED-ML Level 1 Version 1](https://identifiers.org/combine.specificationssed-ml.level-1.version-1)
 
 ## Governance

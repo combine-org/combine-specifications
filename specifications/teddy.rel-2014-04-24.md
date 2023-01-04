@@ -7,4 +7,4 @@ The ontology can be downloaded from:
 
 * [OWL file](./files/teddy.rel-2014-04-24.owl)
 
-Identifier for this specification is: https://identifiers.org/combine.specifications/teddy.rel-2014-04-24
+Identifier for this specification is: https://identifiers.org/combine.specifications:teddy.rel-2014-04-24

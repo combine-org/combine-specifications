@@ -6,7 +6,7 @@ The specification can be found at:
 * [sbml.level-2.version-5.release-1.pdf](./files/sbml.level-2.version-5.release-1.pdf)
 * [https://sbml.org/specifications/sbml-level-2/version-5/release-1/sbml-level-2-version-5-rel-1.pdf](https://sbml.org/specifications/sbml-level-2/version-5/release-1/sbml-level-2-version-5-rel-1.pdf)
 
-* Identifier for this specification is: https://identifiers.org/combine.specifications/sbml.level-2.version-5.release-1
+* Identifier for this specification is: https://identifiers.org/combine.specifications:sbml.level-2.version-5.release-1
 
 To cite this document use:
 

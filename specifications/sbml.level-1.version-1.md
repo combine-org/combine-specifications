@@ -6,8 +6,8 @@ The specification can be found at:
 * [sbml.level-1.version-1.pdf](./files/sbml.level-1.version-1.pdf)
 * [https://sbml.org/specifications/sbml-level-1/version-1/sbml-level-1.pdf](https://sbml.org/specifications/sbml-level-1/version-1/sbml-level-1.pdf)
 
-Identifier for this specification is: https://identifiers.org/combine.specifications/sbml.level-1.version-1
+Identifier for this specification is: https://identifiers.org/combine.specifications:sbml.level-1.version-1
 
 To cite this document use:
 
-Michael Hucka, Andrew Finney, Herbert Sauro, Hamid Bolouri. (2001). Systems Biology Markup Language (SBML) Level 1: Structures and Facilities for Basic Model Definitions. Retrieved from COMBINE, https://identifiers.org/combine.specifications/sbml.level-1.version-1
+Michael Hucka, Andrew Finney, Herbert Sauro, Hamid Bolouri. (2001). Systems Biology Markup Language (SBML) Level 1: Structures and Facilities for Basic Model Definitions. Retrieved from COMBINE, https://identifiers.org/combine.specifications:sbml.level-1.version-1
