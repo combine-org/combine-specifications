@@ -5,7 +5,7 @@
 A COMBINE archive is a single file containing the various documents (and in the future, references to documents), necessary for the description of a model and all associated data and procedures. This includes for instance, but not limited to, simulation experiment descriptions, all models needed to run the simulations and associated data files. The archive is encoded using the Open Modeling EXchange format (OMEX).
 
 ## Normative definitions
-The [Version 1 of the OMEX specification](./files/omex.version-1.pdf) was published on September 15, 2014.
+The [Version 1 of the OMEX specification](https://raw.githubusercontent.com/combine-org/combine-specifications/main/specifications/files/omex.version-1.pdf) was published on September 15, 2014.
 
 
 # How to cite the COMBINE archive
