@@ -10,7 +10,4 @@ The specification can be found at:
 
 To cite this document use: 
 
-
-
-
  Hasan Baig, Pedro Fontanarrosa, Vishwesh Kulkarni, James Alastair McLaughlin, Prashant Vaidyanathan, Bryan Bartley, Jacob Beal, Matthew Crowther , Thomas E. Gorochowski, Raik Grünberg, Goksel Misirli, James Scott-Brown, Ernst Oberortner, Anil Wipatand Chris J. Myers. Synthetic Biology Open Language (SBOL) Version 3.0.0. J Integr Bioinform. 2020 Jun 25;17(2-3):20200017. doi: 10.1515/jib-2020-0017.
