@@ -13,7 +13,7 @@ In the following, the qualifiers of the first type are called **model qualifiers
 ## model qualifiers
 These kinds of qualifiers define the relationship between a modelling object and its annotation:
 
-![Model qualifiers](./qualifiers-model.png)
+![Model qualifiers](./files/qualifiers-model.png)
 
 Model Qualifiers relating a modelling object and its annotation
 
@@ -38,7 +38,7 @@ The modelling object represented by the model element has for instance (is a cla
 ## biology qualifiers
 These kind of qualifiers define the relationship between a biological object represented by a model element and its annotation:
 
-![Biology qualifiers](./qualifiers-biology.png)
+![Biology qualifiers](./files/qualifiers-biology.png)
 Biology Qualifiers relating a biological object and its annotation
 
 The following is the list of the current qualifiers in the 'http://biomodels.net/biology-qualifiers/' namespace. This list may grow but no element will be removed.
