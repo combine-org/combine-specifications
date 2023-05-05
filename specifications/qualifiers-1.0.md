@@ -1,9 +1,7 @@
 # BioModels.net Qualifiers
 Identifier for this specification is: https://identifiers.org/combine.specifications:qualifiers-1.0
 
-All specifications are available here:
-* BioModels.net qualifiers 1.1: https://identifiers.org/combine.specifications:qualifiers-1.1
-* BioModels.net qualifiers 1.0: https://identifiers.org/combine.specifications:qualifiers-1.0
+All specifications are available from https://identifiers.org/combine.specifications:qualifiers
 
 The qualification of an annotation is important to grasp the relation between a model component and the resource used to annotate it. The relationship is rarely one-to-one, and the information content of an annotation is greatly increased if one knows what it represents rather than to knowing only that it is "related to".
 
