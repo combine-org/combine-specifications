@@ -1,6 +1,8 @@
 # FROG Metadata Version 1
 ![FROG logo](./files/frog-logo.png) 
 
+The FROG metadata report is a file reporting the metadata of a FROG analysis.
+
 Identifier for this specification is: https://identifiers.org/combine.specifications:frog-metadata-version-1
 
 **FROG analysis** - a community standard to foster reproducibility and curation of constraint-based models. FROG provides guidelines, best practices, and a set of standardized FBA analyses to assess reproducibility and curation efforts.
