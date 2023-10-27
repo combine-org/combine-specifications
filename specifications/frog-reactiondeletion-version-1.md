@@ -15,5 +15,6 @@ The FROG analysis Version 1 consists of
 * https://identifiers.org/combine.specifications:frog-genedeletion-version-1
 * https://identifiers.org/combine.specifications:frog-reactiondeletion-version-1
 * https://identifiers.org/combine.specifications:frog-json-version-1
+* https://identifiers.org/combine.specifications:frog-minifrog-version-1
 
 
