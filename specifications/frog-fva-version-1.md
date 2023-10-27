@@ -1,6 +1,8 @@
 # FROG FVA Version 1
 ![FROG logo](./files/frog-logo.png) 
 
+The FROG flux variability analysis (FVA) report is a file reporting the results of FVA of the model.
+
 Identifier for this specification is: https://identifiers.org/combine.specifications:frog-fva-version-1
 
 **FROG analysis** - a community standard to foster reproducibility and curation of constraint-based models. FROG provides guidelines, best practices, and a set of standardized FBA analyses to assess reproducibility and curation efforts.
@@ -15,5 +17,6 @@ The FROG analysis Version 1 consists of
 * https://identifiers.org/combine.specifications:frog-genedeletion-version-1
 * https://identifiers.org/combine.specifications:frog-reactiondeletion-version-1
 * https://identifiers.org/combine.specifications:frog-json-version-1
+* https://identifiers.org/combine.specifications:frog-minifrog-version-1
 
 
