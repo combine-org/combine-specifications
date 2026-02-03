@@ -1,5 +1,5 @@
 # SBGN ER Level 1 Version 2
-The identifier for this specification is: https://identifiers.org/combine.specifications:sbgn-er.level-1
+The identifier for this specification is: https://identifiers.org/combine.specifications:sbgn.er.level-1
 
 Version 2 of Level 1 of the SBGN Entity Relationship Language was published on 08 August 2015.
 
