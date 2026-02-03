@@ -1,4 +1,4 @@
-# SED-ML Level 1
+# SED-ML Level 1 Version 5
 <img src="./files/sed-ml.png" alt="SED-ML logo" height="75"/>
 
 Version 5 of Level 1 of SED-ML was published on January 3, 2024.
