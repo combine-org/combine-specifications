@@ -12,4 +12,4 @@ Identifier for this specification is: https://identifiers.org/combine.specificat
 
 To cite this document use:
 
-Smith LP, Bergmann FT, Garny A, Helikar T, Karr J, Nickerson D, Sauro H, Waltemath D, König M. The simulation experiment description markup language (SED-ML): language specification for level 1 version 5. J Integr Bioinform. 2024 Apr 15;21(1):20240008. doi: [10.1515/jib-2024-0008](https://doi.org/10.1515/jib-2024-0008). PMID: [38613325](http://identifier.org/pubmed/38613325); PMCID: PMC11294059.
+Smith LP, Bergmann FT, Garny A, Helikar T, Karr J, Nickerson D, Sauro H, Waltemath D, König M. The simulation experiment description markup language (SED-ML): language specification for level 1 version 5. J Integr Bioinform. 2024 Apr 15;21(1):20240008. doi: [10.1515/jib-2024-0008](https://doi.org/10.1515/jib-2024-0008). PMID: [38613325](https://identifiers.org/pubmed/38613325); PMCID: PMC11294059.
