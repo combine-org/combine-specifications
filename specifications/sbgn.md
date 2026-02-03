@@ -7,9 +7,9 @@ The Systems Biology Graphical Notation (SBGN), is a set standard graphical langu
 ## Normative definitions
 SBGN is defined by the a set of specification documents, that define the symbols used in the languages, and the rules to assemble them in maps. The latest specifications are:
 
-* [SBGN PD Level 1 Version 2.0](http://identifier.org/combine.specifications/sbgn.pd.level-1.version-2.0)
-* [SBGN ER Level 1 Version 2](http://identifier.org/combine.specifications/sbgn.er.level-1.version-2)
-* [SBGN AF Level 1 Version 1.2](http://identifier.org/combine.specifications/sbgn.af.level-1.version-1.2)
+* [SBGN PD Level 1 Version 2.0](https://identifiers.org/combine.specifications:sbgn.pd.level-1.version-2.0)
+* [SBGN ER Level 1 Version 2](https://identifiers.org/combine.specifications:sbgn.er.level-1.version-2)
+* [SBGN AF Level 1 Version 1.2](https://identifiers.org/combine.specifications:sbgn.af.level-1.version-1.2)
 
 ## Governance
 SBGN development is coordinated by an [editorial board](https://sbgn.github.io/about#sbgn-editors) elected by the community, and a [scientific committee](https://sbgn.github.io/about#sbgn-scientific-committee) made up of PIs of SBGN supporting grants and invited members.
